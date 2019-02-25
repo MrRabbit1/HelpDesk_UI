@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TypeOfService09-10-11" time="125" tests="3" failures="0" errors="0">
+   <testsuite name="TypeOfService09-10-11" tests="3" failures="0" errors="0" time="125" timestamp="2019-02-25 16:04:25" hostname="Ninja - AnhNVSE63446" id="Test Suites/TypeOfService09-10-11">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService09-10-11\\20190225_160416"/>
+         <property name="logFiles" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService09-10-11\\20190225_160416\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="sessionId" value="70f2b9750a01baadd2a3b43e8fc55457"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TypeOfService/typeOfService09" classname="Test Cases/TypeOfService/typeOfService09" status="PASSED">
+         <system-out><![CDATA[2019-02-25 16:04:25 - [TEST_CASE][PASSED] - Test Cases/TypeOfService/typeOfService09: Test Cases/TypeOfService/typeOfService09
+
+2019-02-25 16:04:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 16:04:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 16:04:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-25 16:04:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 16:04:32 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 16:04:37 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 16:04:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 16:04:38 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 16:04:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 16:04:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 16:04:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 16:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 16:04:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 16:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 16:05:07 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:08 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Xem Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 16:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 16:05:08 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:09 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Xem Hng Dn")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Xem Hng Dn' is clicked on
+
+2019-02-25 16:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Xem Hng Dn' is clicked on
+
+2019-02-25 16:05:10 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:11 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/font_To Hng Dn")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/font_To Hng Dn' is clicked on
+
+2019-02-25 16:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/font_To Hng Dn' is clicked on
+
+2019-02-25 16:05:11 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:12 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_Ni dung hng dn_siGuideli"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_Ni dung hng dn_siGuideli'
+
+2019-02-25 16:05:12 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input_Ni dung hng dn_siGuideli'
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - CDATE = SimpleDateFormat(dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer2 = null: null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\creDateGuide.txt), utf-8)): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer.write(CDATE): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer2 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\upDateGuide.txt), utf-8)): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer2.write(CDATE): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - writer2.close(): null
+
+2019-02-25 16:05:12 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:13 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_To Mi")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_To Mi' is clicked on
+
+2019-02-25 16:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_To Mi' is clicked on
+
+2019-02-25 16:05:13 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:14 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_OK")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 16:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 16:05:14 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:15 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/fieldSearch")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 16:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 16:05:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input'
+
+2019-02-25 16:05:16 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/input'
+
+2019-02-25 16:05:16 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:05:17 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:05:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_anhtest"), "anhtest"): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_anhtest' are matched.
+
+2019-02-25 16:05:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_anhtest' are matched.
+
+2019-02-25 16:05:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_25022019"), CDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:05:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:05:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_25022019"), CDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:05:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:05:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 16:05:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TypeOfService/typeOfService10" classname="Test Cases/TypeOfService/typeOfService10" status="PASSED">
+         <system-out><![CDATA[2019-02-25 16:05:18 - [TEST_CASE][PASSED] - Test Cases/TypeOfService/typeOfService10: Test Cases/TypeOfService/typeOfService10
+
+2019-02-25 16:05:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 16:05:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 16:05:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 16:05:21 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 16:05:23 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 16:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 16:05:23 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 16:05:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 16:05:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 16:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 16:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 16:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 16:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 16:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/a_Xem Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 16:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 16:06:02 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:03 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/a_Xem Hng Dn")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/a_Xem Hng Dn' is clicked on
+
+2019-02-25 16:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/a_Xem Hng Dn' is clicked on
+
+2019-02-25 16:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/fieldSearch")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 16:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 16:06:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input'
+
+2019-02-25 16:06:04 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input'
+
+2019-02-25 16:06:04 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:05 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_anhtest_btn btn-warning")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_anhtest_btn btn-warning' is clicked on
+
+2019-02-25 16:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_anhtest_btn btn-warning' is clicked on
+
+2019-02-25 16:06:05 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:06 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_Ni dung hng dn_siGuideli"), "anhtest22"): Text 'anhtest22' is set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_Ni dung hng dn_siGuideli'
+
+2019-02-25 16:06:06 - [MESSAGE][PASSED] - Text 'anhtest22' is set on object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/input_Ni dung hng dn_siGuideli'
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - UDATE = SimpleDateFormat(dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\upDateGuide.txt), utf-8)): null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - writer.print(""): null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - writer.write(UDATE): null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-02-25 16:06:06 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:07 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_Cp Nht")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_Cp Nht' is clicked on
+
+2019-02-25 16:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_Cp Nht' is clicked on
+
+2019-02-25 16:06:07 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:08 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_OK")): Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 16:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 16:06:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_anhtest22"), "anhtest22"): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_anhtest22' are matched.
+
+2019-02-25 16:06:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_anhtest22' are matched.
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - CDATE = null: null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - br = null: null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - br = new java.io.BufferedReader(new java.io.FileReader(C:\Users\pc\Katalon Studio\Helpdesk\creDateGuide.txt)): null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - sCurrentLine = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - while (sCurrentLine = br.readLine() != null): null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - CDATE = sCurrentLine: null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - br.close(): null
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_25022019"), CDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:06:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_25022019"), UDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:06:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService10/Page_ODTS System/td_25022019' are matched.
+
+2019-02-25 16:06:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 16:06:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TypeOfService/typeOfService11" classname="Test Cases/TypeOfService/typeOfService11" status="PASSED">
+         <system-out><![CDATA[2019-02-25 16:06:09 - [TEST_CASE][PASSED] - Test Cases/TypeOfService/typeOfService11: Test Cases/TypeOfService/typeOfService11
+
+2019-02-25 16:06:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 16:06:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 16:06:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 16:06:13 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 16:06:17 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 16:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 16:06:17 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 16:06:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 16:06:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 16:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 16:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 16:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 16:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService09/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 16:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/a_Xem Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 16:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 16:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/a_Xem Hng Dn")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/a_Xem Hng Dn' is clicked on
+
+2019-02-25 16:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/a_Xem Hng Dn' is clicked on
+
+2019-02-25 16:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/fieldSearch")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 16:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 16:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input"), "anhtest22"): Text 'anhtest22' is set on object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input'
+
+2019-02-25 16:06:27 - [MESSAGE][PASSED] - Text 'anhtest22' is set on object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/input'
+
+2019-02-25 16:06:27 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:28 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_anhtest22_btn btn-dange")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_anhtest22_btn btn-dange' is clicked on
+
+2019-02-25 16:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_anhtest22_btn btn-dange' is clicked on
+
+2019-02-25 16:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_Chp Nhn Xa")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-02-25 16:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-02-25 16:06:28 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 16:06:29 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_OK")): Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 16:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/td_Khng c d liu ph hp")): Object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-02-25 16:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/TypeOfService/TypeOfService11/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - writer2 = new java.io.PrintWriter(C:\Users\pc\Katalon Studio\Helpdesk\creDateGuide.txt): null
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - writer2.print(""): null
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - writer2.close(): null
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - writer = new java.io.PrintWriter(C:\Users\pc\Katalon Studio\Helpdesk\upDateGuide.txt): null
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - writer.print(""): null
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-02-25 16:06:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 16:06:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-25 16:04:25 - [TEST_SUITE][PASSED] - TypeOfService09-10-11: Test Cases/TypeOfService/typeOfService11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

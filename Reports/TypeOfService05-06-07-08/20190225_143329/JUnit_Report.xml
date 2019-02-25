@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TypeOfService05-06-07-08" time="269" tests="2" failures="2" errors="0">
+   <testsuite name="TypeOfService05-06-07-08" tests="2" failures="2" errors="0" time="269" timestamp="2019-02-25 14:33:39" hostname="Ninja - AnhNVSE63446" id="Test Suites/TypeOfService05-06-07-08">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService05-06-07-08\\20190225_143329"/>
+         <property name="logFiles" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService05-06-07-08\\20190225_143329\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService05-06-07-08\\20190225_143329\\1551080205855.png, C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService05-06-07-08\\20190225_143329\\1551080288492.png"/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="sessionId" value="108ad74caf943028ccc26e1d5f3692a2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TypeOfService/typeOfService05" classname="Test Cases/TypeOfService/typeOfService05" status="PASSED">
+         <system-out><![CDATA[2019-02-25 14:33:40 - [TEST_CASE][PASSED] - Test Cases/TypeOfService/typeOfService05: Test Cases/TypeOfService/typeOfService05
+
+2019-02-25 14:33:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 14:33:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 14:33:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-25 14:33:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 14:33:48 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:33:54 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:33:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:33:54 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:33:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:33:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/a_Loi Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 14:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 14:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/a_Xem Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 14:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 14:34:23 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:34:24 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_To Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_To Dch V' is clicked on
+
+2019-02-25 14:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_To Dch V' is clicked on
+
+2019-02-25 14:34:25 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:34:26 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:34:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_Tn Dch V_siNameC"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_Tn Dch V_siNameC'
+
+2019-02-25 14:34:26 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_Tn Dch V_siNameC'
+
+2019-02-25 14:34:26 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:34:27 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_M T Dch V_siDescriptionC"), "haha"): Text 'haha' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_M T Dch V_siDescriptionC'
+
+2019-02-25 14:34:27 - [MESSAGE][PASSED] - Text 'haha' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input_M T Dch V_siDescriptionC'
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - CDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer2 = null: null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\creDateService.txt), utf-8)): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer.write(CDATE): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer2 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\upDateService.txt), utf-8)): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer2.write(CDATE): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - writer2.close(): null
+
+2019-02-25 14:34:27 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:34:28 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_To Mi")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_To Mi' is clicked on
+
+2019-02-25 14:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_To Mi' is clicked on
+
+2019-02-25 14:34:28 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:34:29 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_OK")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 14:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 14:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/fieldSearch")): Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 14:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 14:34:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input'
+
+2019-02-25 14:34:30 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/input'
+
+2019-02-25 14:34:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_anhtest"), "anhtest"): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_anhtest' are matched.
+
+2019-02-25 14:34:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_anhtest' are matched.
+
+2019-02-25 14:34:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_haha"), "haha"): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_haha' are matched.
+
+2019-02-25 14:34:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_haha' are matched.
+
+2019-02-25 14:34:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_1340 25022019"), CDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_1340 25022019' are matched.
+
+2019-02-25 14:34:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService05/Page_ODTS System/td_1340 25022019' are matched.
+
+2019-02-25 14:34:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 14:34:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TypeOfService/typeOfService06" classname="Test Cases/TypeOfService/typeOfService06" status="PASSED">
+         <system-out><![CDATA[2019-02-25 14:34:31 - [TEST_CASE][PASSED] - Test Cases/TypeOfService/typeOfService06: Test Cases/TypeOfService/typeOfService06
+
+2019-02-25 14:34:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 14:34:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 14:34:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 14:34:34 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:34:37 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:34:37 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:34:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:34:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/a_Loi Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 14:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/a_Loi Dch V' is clicked on
+
+2019-02-25 14:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/a_Xem Dch V")): Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 14:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/a_Xem Dch V' is clicked on
+
+2019-02-25 14:35:56 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:35:57 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/fieldSearch")): Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 14:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 14:35:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input'
+
+2019-02-25 14:35:57 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/input'
+
+2019-02-25 14:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_Xem Hng Dn_btn btn-info")): Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_Xem Hng Dn_btn btn-info' is clicked on
+
+2019-02-25 14:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_Xem Hng Dn_btn btn-info' is clicked on
+
+2019-02-25 14:35:57 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 14:35:58 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 14:35:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_anhtest"), "anhtest"): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_anhtest' are matched.
+
+2019-02-25 14:35:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_anhtest' are matched.
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_haha"), "haha"): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_haha' are matched.
+
+2019-02-25 14:35:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_haha' are matched.
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - CDATE = null: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - UDATE = null: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - br = null: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - br = new java.io.BufferedReader(new java.io.FileReader(C:\Users\pc\Katalon Studio\Helpdesk\creDateService.txt)): null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - sCurrentLine = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - while (sCurrentLine = br.readLine() != null): null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - CDATE = sCurrentLine: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - br = new java.io.BufferedReader(new java.io.FileReader(C:\Users\pc\Katalon Studio\Helpdesk\upDateService.txt)): null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - sCurrentLine: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - while (sCurrentLine = br.readLine() != null): null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - UDATE = sCurrentLine: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - br.close(): null
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_1417 25022019"), CDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_1417 25022019' are matched.
+
+2019-02-25 14:35:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_1417 25022019' are matched.
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_1417 25022019_1"), UDATE): Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_1417 25022019_1' are matched.
+
+2019-02-25 14:35:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/p_1417 25022019_1' are matched.
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_ng")): Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_ng' is clicked on
+
+2019-02-25 14:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService06/Page_ODTS System/button_ng' is clicked on
+
+2019-02-25 14:35:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 14:36:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TypeOfService/typeOfService07" classname="Test Cases/TypeOfService/typeOfService07" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TypeOfService/typeOfService07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-25 14:36:00 - [TEST_CASE][FAILED] - Test Cases/TypeOfService/typeOfService07: Test Cases/TypeOfService/typeOfService07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)
+
+
+2019-02-25 14:36:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 14:36:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 14:36:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 14:36:03 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:36:14 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:36:14 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:36:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:36:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:36:14 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V")): click(findTestObject("Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)
+
+
+2019-02-25 14:36:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-25 14:36:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+[[ATTACHMENT|C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService05-06-07-08\\20190225_143329\\1551080205855.png]]
+
+2019-02-25 14:36:46 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-25 14:36:00 - [TEST_CASE][FAILED] - Test Cases/TypeOfService/typeOfService07: Test Cases/TypeOfService/typeOfService07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TypeOfService/typeOfService08" classname="Test Cases/TypeOfService/typeOfService08" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TypeOfService/typeOfService08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService08.run(typeOfService08:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-25 14:36:46 - [TEST_CASE][FAILED] - Test Cases/TypeOfService/typeOfService08: Test Cases/TypeOfService/typeOfService08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService08.run(typeOfService08:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)
+
+
+2019-02-25 14:36:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 14:36:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-25 14:36:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 14:36:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 14:36:50 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:36:51 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 14:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:36:51 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 14:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:36:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 14:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 14:36:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V")): click(findTestObject("Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService08.run(typeOfService08:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)
+
+
+2019-02-25 14:38:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-25 14:38:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+[[ATTACHMENT|C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\TypeOfService05-06-07-08\\20190225_143329\\1551080288492.png]]
+
+2019-02-25 14:38:08 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService08.run(typeOfService08:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-25 14:36:46 - [TEST_CASE][FAILED] - Test Cases/TypeOfService/typeOfService08: Test Cases/TypeOfService/typeOfService08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService08/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService08.run(typeOfService08:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-25 14:33:39 - [TEST_SUITE][FAILED] - TypeOfService05-06-07-08: Test Cases/TypeOfService/typeOfService07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-25 14:33:39 - [TEST_SUITE][FAILED] - TypeOfService05-06-07-08: Test Cases/TypeOfService/typeOfService07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TypeOfService/TypeOfService07/Page_ODTS System/a_Xem Dch V' located by 'By.xpath: //table[@id='detail-table']/tbody/tr/td[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at typeOfService07.run(typeOfService07:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551080014563.run(TempTestSuite1551080014563.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

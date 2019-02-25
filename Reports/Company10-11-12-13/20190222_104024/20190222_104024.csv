@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Company10-11-12-13,Chrome 72.0.3626.119,,2019-02-22 10:40:31,2019-02-22 10:42:01,1m - 29.503s,FAILED
+,,,,,,
+Test Cases/Company/company10,Chrome 72.0.3626.119,,2019-02-22 10:40:32,2019-02-22 10:41:04,31.955s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-22 10:40:33,2019-02-22 10:40:39,5.288s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.119,,2019-02-22 10:40:39,2019-02-22 10:40:40,1.101s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.119,,2019-02-22 10:40:40,2019-02-22 10:40:40,0.378s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.119,,2019-02-22 10:40:40,2019-02-22 10:40:40,0.377s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.119,,2019-02-22 10:40:40,2019-02-22 10:40:41,0.255s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/a_Cng Ty""))",Chrome 72.0.3626.119,,2019-02-22 10:40:41,2019-02-22 10:40:43,2.073s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/a_Xem Chi Nhnh""))",Chrome 72.0.3626.119,,2019-02-22 10:40:43,2019-02-22 10:40:43,0.477s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/a_Xem Thit b""))",Chrome 72.0.3626.119,,2019-02-22 10:40:43,2019-02-22 10:40:44,0.443s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/font_To Thit B""))",Chrome 72.0.3626.119,,2019-02-22 10:40:44,2019-02-22 10:40:44,0.397s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:44,2019-02-22 10:40:45,1.090s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/span_--Chn loi thit b--""))",Chrome 72.0.3626.119,,2019-02-22 10:40:45,2019-02-22 10:40:45,0.153s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:45,2019-02-22 10:40:46,1.034s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_ng_select2-search__field""), ""wifi"")",Chrome 72.0.3626.119,,2019-02-22 10:40:46,2019-02-22 10:40:47,0.278s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:47,2019-02-22 10:40:48,1.025s,PASSED
+"sendKeys(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_ng_select2-search__field""), Keys.chord(ENTER))",Chrome 72.0.3626.119,,2019-02-22 10:40:48,2019-02-22 10:40:48,0.185s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:48,2019-02-22 10:40:49,1.031s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Tn Thit B_dvNameC""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:40:49,2019-02-22 10:40:49,0.317s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:49,2019-02-22 10:40:50,1.022s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Code_dvCodeC""), ""hihi"")",Chrome 72.0.3626.119,,2019-02-22 10:40:50,2019-02-22 10:40:50,0.249s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:50,2019-02-22 10:40:51,1.014s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Ngy Bo Hnh_dvGDateC""))",Chrome 72.0.3626.119,,2019-02-22 10:40:51,2019-02-22 10:40:52,0.270s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/chonNgayBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:40:52,2019-02-22 10:40:52,0.166s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/chonNgayBaoHanh2""))",Chrome 72.0.3626.119,,2019-02-22 10:40:52,2019-02-22 10:40:52,0.128s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_1""))",Chrome 72.0.3626.119,,2019-02-22 10:40:52,2019-02-22 10:40:52,0.128s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:52,2019-02-22 10:40:53,1.028s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Hn Bo Hnh_dvGEndDateC""))",Chrome 72.0.3626.119,,2019-02-22 10:40:53,2019-02-22 10:40:53,0.104s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/chonNgayBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:40:53,2019-02-22 10:40:53,0.120s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/chonHanBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:40:53,2019-02-22 10:40:54,0.237s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_1""))",Chrome 72.0.3626.119,,2019-02-22 10:40:54,2019-02-22 10:40:54,0.169s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Ip_dvIpC""), ""192.168.1.1"")",Chrome 72.0.3626.119,,2019-02-22 10:40:54,2019-02-22 10:40:54,0.242s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:54,2019-02-22 10:40:55,1.021s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Port_dvPortC""), ""443"")",Chrome 72.0.3626.119,,2019-02-22 10:40:55,2019-02-22 10:40:55,0.164s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:55,2019-02-22 10:40:56,1.023s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Device Account_dvAccC""), ""anh"")",Chrome 72.0.3626.119,,2019-02-22 10:40:56,2019-02-22 10:40:56,0.191s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:56,2019-02-22 10:40:58,1.025s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Device Password_dvPassC""), ""123"")",Chrome 72.0.3626.119,,2019-02-22 10:40:58,2019-02-22 10:40:58,0.287s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:58,2019-02-22 10:40:59,1.014s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Ngy Lp_dvSettingDateC""))",Chrome 72.0.3626.119,,2019-02-22 10:40:59,2019-02-22 10:40:59,0.122s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/chonNgayBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:40:59,2019-02-22 10:40:59,0.137s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/chonNgayBaoHanh2""))",Chrome 72.0.3626.119,,2019-02-22 10:40:59,2019-02-22 10:40:59,0.112s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_20""))",Chrome 72.0.3626.119,,2019-02-22 10:40:59,2019-02-22 10:40:59,0.102s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:40:59,2019-02-22 10:41:00,1.021s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input_Thng Tin_dvOtherC""), ""testdevice"")",Chrome 72.0.3626.119,,2019-02-22 10:41:00,2019-02-22 10:41:01,0.258s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:01,2019-02-22 10:41:02,1.025s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/button_To Mi""))",Chrome 72.0.3626.119,,2019-02-22 10:41:02,2019-02-22 10:41:02,0.157s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/button_OK""))",Chrome 72.0.3626.119,,2019-02-22 10:41:02,2019-02-22 10:41:02,0.338s,PASSED
+"click(findTestObject(""Object Repository/Company/company10/Page_ODTS System/fieldSearch""))",Chrome 72.0.3626.119,,2019-02-22 10:41:02,2019-02-22 10:41:03,0.629s,PASSED
+"setText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/input""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:03,0.189s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_anhtest""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:03,0.070s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_hihi""), ""hihi"")",Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:03,0.052s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_01022019""), ""01/02/2019"")",Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:03,0.086s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_01042019""), ""05/04/2019"")",Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:03,0.091s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company10/Page_ODTS System/td_20022019""), ""20/02/2019"")",Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:03,0.130s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,,2019-02-22 10:41:03,2019-02-22 10:41:04,0.819s,PASSED
+,,,,,,
+Test Cases/Company/company11,Chrome 72.0.3626.119,,2019-02-22 10:41:04,2019-02-22 10:41:19,14.928s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-22 10:41:05,2019-02-22 10:41:07,2.509s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.119,,2019-02-22 10:41:07,2019-02-22 10:41:10,2.668s,PASSED
+"setText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.119,,2019-02-22 10:41:10,2019-02-22 10:41:10,0.271s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.119,,2019-02-22 10:41:10,2019-02-22 10:41:10,0.213s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.119,,2019-02-22 10:41:10,2019-02-22 10:41:10,0.124s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/a_Cng Ty""))",Chrome 72.0.3626.119,,2019-02-22 10:41:10,2019-02-22 10:41:12,1.897s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/a_Xem Chi Nhnh""))",Chrome 72.0.3626.119,,2019-02-22 10:41:12,2019-02-22 10:41:13,0.441s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/a_Xem Thit b""))",Chrome 72.0.3626.119,,2019-02-22 10:41:13,2019-02-22 10:41:13,0.452s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:13,2019-02-22 10:41:14,1.133s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/fieldSearch""))",Chrome 72.0.3626.119,,2019-02-22 10:41:14,2019-02-22 10:41:15,0.161s,PASSED
+"setText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/input""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:41:15,2019-02-22 10:41:15,0.406s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:15,2019-02-22 10:41:16,1.017s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/button_hihi_btn btn-info fa fa""))",Chrome 72.0.3626.119,,2019-02-22 10:41:16,2019-02-22 10:41:16,0.195s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:16,2019-02-22 10:41:17,1.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_anhtest""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:41:17,2019-02-22 10:41:17,0.063s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_Wifi""), ""Wifi"")",Chrome 72.0.3626.119,,2019-02-22 10:41:17,2019-02-22 10:41:17,0.091s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_hihi""), ""hihi"")",Chrome 72.0.3626.119,,2019-02-22 10:41:17,2019-02-22 10:41:17,0.064s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_01022019""), ""01/02/2019"")",Chrome 72.0.3626.119,,2019-02-22 10:41:17,2019-02-22 10:41:17,0.063s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_05042019""), ""05/04/2019"")",Chrome 72.0.3626.119,,2019-02-22 10:41:17,2019-02-22 10:41:17,0.060s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_192.168.1.1""), ""192.168.1.1"")",Chrome 72.0.3626.119,,2019-02-22 10:41:17,2019-02-22 10:41:18,0.059s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_443""), ""443"")",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.062s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_anh""), ""anh"")",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.061s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_123""), ""123"")",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.057s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_20022019""), ""20/02/2019"")",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.059s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/lastEdit""), """")",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.059s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company11/Page_ODTS System/p_testdevice""), ""testdevice"")",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.061s,PASSED
+"click(findTestObject(""Object Repository/Company/company11/Page_ODTS System/button_ng""))",Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:18,0.247s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,,2019-02-22 10:41:18,2019-02-22 10:41:19,0.949s,PASSED
+,,,,,,
+Test Cases/Company/company12,Chrome 72.0.3626.119,,2019-02-22 10:41:19,2019-02-22 10:41:48,28.435s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-22 10:41:19,2019-02-22 10:41:22,2.355s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.119,,2019-02-22 10:41:22,2019-02-22 10:41:24,1.864s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.119,,2019-02-22 10:41:24,2019-02-22 10:41:24,0.191s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.119,,2019-02-22 10:41:24,2019-02-22 10:41:24,0.287s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.119,,2019-02-22 10:41:24,2019-02-22 10:41:24,0.170s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/span_Cng Ty""))",Chrome 72.0.3626.119,,2019-02-22 10:41:24,2019-02-22 10:41:26,1.695s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/a_Xem Chi Nhnh""))",Chrome 72.0.3626.119,,2019-02-22 10:41:26,2019-02-22 10:41:27,0.616s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/a_Xem Thit b""))",Chrome 72.0.3626.119,,2019-02-22 10:41:27,2019-02-22 10:41:28,1.137s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:28,2019-02-22 10:41:29,1.021s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/fieldSearch""))",Chrome 72.0.3626.119,,2019-02-22 10:41:29,2019-02-22 10:41:29,0.102s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:41:29,2019-02-22 10:41:29,0.188s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:29,2019-02-22 10:41:30,1.021s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/button_hihi_btn btn-warning fa""))",Chrome 72.0.3626.119,,2019-02-22 10:41:30,2019-02-22 10:41:30,0.121s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:30,2019-02-22 10:41:31,1.017s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Company/company12/Page_ODTS System/select_--Chn loi thit b--WifiC""), ""2"", true)",Chrome 72.0.3626.119,,2019-02-22 10:41:31,2019-02-22 10:41:32,0.414s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:32,2019-02-22 10:41:33,1.017s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Tn Thit B_dvNameE""), ""anhtest22"")",Chrome 72.0.3626.119,,2019-02-22 10:41:33,2019-02-22 10:41:33,0.257s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:33,2019-02-22 10:41:34,1.039s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Code_dvCodeE""), ""hihi22"")",Chrome 72.0.3626.119,,2019-02-22 10:41:34,2019-02-22 10:41:34,0.215s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:34,2019-02-22 10:41:35,1.077s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Ngy Bo Hnh_dvGDateE""))",Chrome 72.0.3626.119,,2019-02-22 10:41:35,2019-02-22 10:41:35,0.132s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/chonNgayBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:41:35,2019-02-22 10:41:36,0.205s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/chonNgayBaoHanh2""))",Chrome 72.0.3626.119,,2019-02-22 10:41:36,2019-02-22 10:41:36,0.154s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/td_4""))",Chrome 72.0.3626.119,,2019-02-22 10:41:36,2019-02-22 10:41:36,0.125s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:36,2019-02-22 10:41:37,1.013s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Hn Bo Hnh_dvGEndDateE""))",Chrome 72.0.3626.119,,2019-02-22 10:41:37,2019-02-22 10:41:37,0.142s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/chonNgayBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:41:37,2019-02-22 10:41:37,0.117s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/chonHanBaoHanh""))",Chrome 72.0.3626.119,,2019-02-22 10:41:37,2019-02-22 10:41:37,0.104s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/td_10""))",Chrome 72.0.3626.119,,2019-02-22 10:41:37,2019-02-22 10:41:37,0.082s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:37,2019-02-22 10:41:38,1.010s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Ip_dvIpE""), ""192.168.1.2"")",Chrome 72.0.3626.119,,2019-02-22 10:41:38,2019-02-22 10:41:38,0.167s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:38,2019-02-22 10:41:39,1.013s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Port_dvPortE""), ""80"")",Chrome 72.0.3626.119,,2019-02-22 10:41:39,2019-02-22 10:41:40,0.174s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:40,2019-02-22 10:41:41,1.014s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Device Account_dvAccE""), ""anh22"")",Chrome 72.0.3626.119,,2019-02-22 10:41:41,2019-02-22 10:41:41,0.219s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:41,2019-02-22 10:41:42,1.022s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Device Password_dvPassE""), ""12322"")",Chrome 72.0.3626.119,,2019-02-22 10:41:42,2019-02-22 10:41:42,0.239s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:42,2019-02-22 10:41:43,1.025s,PASSED
+"setText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/input_Thng Tin_dvOtherE""), ""testdevice22"")",Chrome 72.0.3626.119,,2019-02-22 10:41:43,2019-02-22 10:41:43,0.324s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:43,2019-02-22 10:41:45,1.029s,PASSED
+UDATE = SimpleDateFormat(dd/MM/yyyy).format(getInstance().getTime()),Chrome 72.0.3626.119,,2019-02-22 10:41:45,2019-02-22 10:41:45,0.064s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/button_Cp Nht""))",Chrome 72.0.3626.119,,2019-02-22 10:41:45,2019-02-22 10:41:45,0.258s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/button_OK""))",Chrome 72.0.3626.119,,2019-02-22 10:41:45,2019-02-22 10:41:45,0.378s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:45,2019-02-22 10:41:46,1.016s,PASSED
+"click(findTestObject(""Object Repository/Company/company12/Page_ODTS System/button_hihi22_btn btn-info fa""))",Chrome 72.0.3626.119,,2019-02-22 10:41:46,2019-02-22 10:41:46,0.221s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Company/company12/Page_ODTS System/p_anhtest22""), ""anhtest22"")",Chrome 72.0.3626.119,,2019-02-22 10:41:46,2019-02-22 10:41:48,1.069s,FAILED
+,,,,,,
+Test Cases/Company/company13,Chrome 72.0.3626.119,,2019-02-22 10:41:48,2019-02-22 10:42:01,13.272s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-22 10:41:48,2019-02-22 10:41:51,3.303s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.119,,2019-02-22 10:41:51,2019-02-22 10:41:53,1.734s,PASSED
+"setText(findTestObject(""Object Repository/Company/company13/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.119,,2019-02-22 10:41:53,2019-02-22 10:41:53,0.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Company/company13/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.119,,2019-02-22 10:41:53,2019-02-22 10:41:53,0.175s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.119,,2019-02-22 10:41:53,2019-02-22 10:41:54,0.135s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/a_Cng Ty""))",Chrome 72.0.3626.119,,2019-02-22 10:41:54,2019-02-22 10:41:56,2.268s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/a_Xem Chi Nhnh""))",Chrome 72.0.3626.119,,2019-02-22 10:41:56,2019-02-22 10:41:57,1.174s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/a_Xem Thit b""))",Chrome 72.0.3626.119,,2019-02-22 10:41:57,2019-02-22 10:41:58,0.527s,PASSED
+waitForAlert(1),Chrome 72.0.3626.119,,2019-02-22 10:41:58,2019-02-22 10:41:59,1.026s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/fieldSearch""))",Chrome 72.0.3626.119,,2019-02-22 10:41:59,2019-02-22 10:41:59,0.119s,PASSED
+"setText(findTestObject(""Object Repository/Company/company13/Page_ODTS System/input""), ""anhtest"")",Chrome 72.0.3626.119,,2019-02-22 10:41:59,2019-02-22 10:41:59,0.231s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/button_hihi22_btn btn-danger f""))",Chrome 72.0.3626.119,,2019-02-22 10:41:59,2019-02-22 10:41:59,0.219s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/button_Chp Nhn Xa""))",Chrome 72.0.3626.119,,2019-02-22 10:41:59,2019-02-22 10:41:59,0.259s,PASSED
+"click(findTestObject(""Object Repository/Company/company13/Page_ODTS System/button_OK""))",Chrome 72.0.3626.119,,2019-02-22 10:41:59,2019-02-22 10:42:00,0.485s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Company/company13/Page_ODTS System/td_Khng c d liu ph hp""))",Chrome 72.0.3626.119,,2019-02-22 10:42:00,2019-02-22 10:42:00,0.119s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,,2019-02-22 10:42:00,2019-02-22 10:42:01,0.854s,PASSED

@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Company14-15-16-17" time="108" tests="2" failures="2" errors="0">
+   <testsuite name="Company14-15-16-17" tests="2" failures="2" errors="0" time="108" timestamp="2019-02-25 09:09:48" hostname="Ninja - AnhNVSE63446" id="Test Suites/Company14-15-16-17">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937"/>
+         <property name="logFiles" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060640049.png, C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060640396.png, C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060674409.png, C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060674768.png"/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="sessionId" value="bddfba42832df6a1ffb083deb4f90bab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Company/company14" classname="Test Cases/Company/company14" status="PASSED">
+         <system-out><![CDATA[2019-02-25 09:09:49 - [TEST_CASE][PASSED] - Test Cases/Company/company14: Test Cases/Company/company14
+
+2019-02-25 09:09:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 09:09:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 09:09:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-25 09:09:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 09:09:59 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:10:02 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:10:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:10:03 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:10:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/company14/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:10:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/company14/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/company14/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/company14/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/a_Xem Hp ng")): Object: 'Object Repository/Company/company14/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:10:08 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:10 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/button_To Hp ng")): Object: 'Object Repository/Company/company14/Page_ODTS System/button_To Hp ng' is clicked on
+
+2019-02-25 09:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/button_To Hp ng' is clicked on
+
+2019-02-25 09:10:10 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:11 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_M T Hp ng_conNameCreate"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_M T Hp ng_conNameCreate'
+
+2019-02-25 09:10:12 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_M T Hp ng_conNameCreate'
+
+2019-02-25 09:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/ul_Dch V ng K_select2-selectio")): Object: 'Object Repository/Company/company14/Page_ODTS System/ul_Dch V ng K_select2-selectio' is clicked on
+
+2019-02-25 09:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/ul_Dch V ng K_select2-selectio' is clicked on
+
+2019-02-25 09:10:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_Dch V ng K_select2-searc"), "WIFI"): Text 'WIFI' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_Dch V ng K_select2-searc'
+
+2019-02-25 09:10:12 - [MESSAGE][PASSED] - Text 'WIFI' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_Dch V ng K_select2-searc'
+
+2019-02-25 09:10:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_Dch V ng K_select2-searc"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Company/company14/Page_ODTS System/input_Dch V ng K_select2-searc'
+
+2019-02-25 09:10:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Company/company14/Page_ODTS System/input_Dch V ng K_select2-searc'
+
+2019-02-25 09:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_Ngy Bt u_createDate")): Object: 'Object Repository/Company/company14/Page_ODTS System/input_Ngy Bt u_createDate' is clicked on
+
+2019-02-25 09:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/input_Ngy Bt u_createDate' is clicked on
+
+2019-02-25 09:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/th_February 2019")): Object: 'Object Repository/Company/company14/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/span_Feb")): Object: 'Object Repository/Company/company14/Page_ODTS System/span_Feb' is clicked on
+
+2019-02-25 09:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/span_Feb' is clicked on
+
+2019-02-25 09:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_5")): Object: 'Object Repository/Company/company14/Page_ODTS System/td_5' is clicked on
+
+2019-02-25 09:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/td_5' is clicked on
+
+2019-02-25 09:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_Ngy Kt Thc_endDate")): Object: 'Object Repository/Company/company14/Page_ODTS System/input_Ngy Kt Thc_endDate' is clicked on
+
+2019-02-25 09:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/input_Ngy Kt Thc_endDate' is clicked on
+
+2019-02-25 09:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/th_February 2019")): Object: 'Object Repository/Company/company14/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/span_Apr")): Object: 'Object Repository/Company/company14/Page_ODTS System/span_Apr' is clicked on
+
+2019-02-25 09:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/span_Apr' is clicked on
+
+2019-02-25 09:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_25")): Object: 'Object Repository/Company/company14/Page_ODTS System/td_25' is clicked on
+
+2019-02-25 09:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/td_25' is clicked on
+
+2019-02-25 09:10:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company14/Page_ODTS System/input_Gi Hp ng_price"), "200"): Text '200' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_Gi Hp ng_price'
+
+2019-02-25 09:10:16 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Company/company14/Page_ODTS System/input_Gi Hp ng_price'
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/button_To Mi")): Object: 'Object Repository/Company/company14/Page_ODTS System/button_To Mi' is clicked on
+
+2019-02-25 09:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/button_To Mi' is clicked on
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - CDATE = SimpleDateFormat(dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\creDateContract.txt), utf-8)): null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - writer.write(CDATE): null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-02-25 09:10:16 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:17 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/button_OK")): Object: 'Object Repository/Company/company14/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 09:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 09:10:17 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:19 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company14/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/company14/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company14/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company14/Page_ODTS System/input"), "25/04/2019"): Text '25/04/2019' is set on object 'Object Repository/Company/company14/Page_ODTS System/input'
+
+2019-02-25 09:10:19 - [MESSAGE][PASSED] - Text '25/04/2019' is set on object 'Object Repository/Company/company14/Page_ODTS System/input'
+
+2019-02-25 09:10:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_Passio"), "Passio"): Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_Passio' are matched.
+
+2019-02-25 09:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_Passio' are matched.
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_05022019"), "05/02/2019"): Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_05022019' are matched.
+
+2019-02-25 09:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_05022019' are matched.
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_25042019"), "25/04/2019"): Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_25042019' are matched.
+
+2019-02-25 09:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_25042019' are matched.
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_200"), "200"): Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_200' are matched.
+
+2019-02-25 09:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/td_200' are matched.
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - EXPIREDDATE = getText(findTestObject("Object Repository/Company/company14/Page_ODTS System/td_25042019")): Text of object 'Object Repository/Company/company14/Page_ODTS System/td_25042019' is: '25/04/2019'
+
+2019-02-25 09:10:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Company/company14/Page_ODTS System/td_25042019' is: '25/04/2019'
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - if (EXPIREDDATE.compareTo(CDATE) >= 0): Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/span_Cn Hn Hp ng' are matched.
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company14/Page_ODTS System/span_Cn Hn Hp ng"), "Còn Hạn Hợp Đồng"): Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/span_Cn Hn Hp ng' are matched.
+
+2019-02-25 09:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company14/Page_ODTS System/span_Cn Hn Hp ng' are matched.
+
+2019-02-25 09:10:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 09:10:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/company15" classname="Test Cases/Company/company15" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Company/company15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-25 09:10:21 - [TEST_CASE][FAILED] - Test Cases/Company/company15: Test Cases/Company/company15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)
+
+
+2019-02-25 09:10:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 09:10:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 09:10:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 09:10:26 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:10:31 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company15/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/company15/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:10:31 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/company15/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:10:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Company/company15/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/company15/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:10:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/company15/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company15/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/company15/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company15/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company15/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/company15/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company15/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company15/Page_ODTS System/a_Xem Hp ng")): Object: 'Object Repository/Company/company15/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company15/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:10:36 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:37 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company15/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/company15/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company15/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company15/Page_ODTS System/input"), "25/04/2019"): Text '25/04/2019' is set on object 'Object Repository/Company/company15/Page_ODTS System/input'
+
+2019-02-25 09:10:38 - [MESSAGE][PASSED] - Text '25/04/2019' is set on object 'Object Repository/Company/company15/Page_ODTS System/input'
+
+2019-02-25 09:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company15/Page_ODTS System/button_Cn Hn Hp ng_btn btn-inf")): Object: 'Object Repository/Company/company15/Page_ODTS System/button_Cn Hn Hp ng_btn btn-inf' is clicked on
+
+2019-02-25 09:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company15/Page_ODTS System/button_Cn Hn Hp ng_btn btn-inf' is clicked on
+
+2019-02-25 09:10:38 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:39 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:39 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Company/company15/Page_ODTS System/p_Passio"), "Passio"): verifyElementText(findTestObject("Object Repository/Company/company15/Page_ODTS System/p_Passio"), "Passio") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)
+
+
+2019-02-25 09:10:40 - [MESSAGE][FAILED] - Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.
+[[ATTACHMENT|C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060640049.png]]
+
+2019-02-25 09:10:40 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060640396.png]]
+
+2019-02-25 09:10:40 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/Company/company15/Page_ODTS System/p_Passio"), "Passio") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-25 09:10:21 - [TEST_CASE][FAILED] - Test Cases/Company/company15: Test Cases/Company/company15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/company16" classname="Test Cases/Company/company16" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Company/company16 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company16.run(company16:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-25 09:10:40 - [TEST_CASE][FAILED] - Test Cases/Company/company16: Test Cases/Company/company16 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company16.run(company16:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)
+
+
+2019-02-25 09:10:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 09:10:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-25 09:10:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 09:10:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 09:10:46 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:10:50 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("Company/company16/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/company16/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:10:51 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/company16/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:10:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Company/company16/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/company16/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:10:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/company16/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/company16/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/company16/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:10:54 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:10:55 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/a_Xem Hp ng")): Object: 'Object Repository/Company/company16/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/company16/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Company/company16/Page_ODTS System/input"), "25/04/2019"): Text '25/04/2019' is set on object 'Object Repository/Company/company16/Page_ODTS System/input'
+
+2019-02-25 09:10:57 - [MESSAGE][PASSED] - Text '25/04/2019' is set on object 'Object Repository/Company/company16/Page_ODTS System/input'
+
+2019-02-25 09:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/button_Cn Hn Hp ng_btn btn-war")): Object: 'Object Repository/Company/company16/Page_ODTS System/button_Cn Hn Hp ng_btn btn-war' is clicked on
+
+2019-02-25 09:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/button_Cn Hn Hp ng_btn btn-war' is clicked on
+
+2019-02-25 09:10:57 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2019-02-25 09:10:59 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2019-02-25 09:10:59 - [TEST_STEP][PASSED] - setText(findTestObject("Company/company16/Page_ODTS System/input_M T Hp ng_conNameE"), "anhtest22"): Text 'anhtest22' is set on object 'Object Repository/Company/company16/Page_ODTS System/input_M T Hp ng_conNameE'
+
+2019-02-25 09:11:00 - [MESSAGE][PASSED] - Text 'anhtest22' is set on object 'Object Repository/Company/company16/Page_ODTS System/input_M T Hp ng_conNameE'
+
+2019-02-25 09:11:00 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:01 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/ul_WIFI")): Object: 'Object Repository/Company/company16/Page_ODTS System/ul_WIFI' is clicked on
+
+2019-02-25 09:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/ul_WIFI' is clicked on
+
+2019-02-25 09:11:01 - [TEST_STEP][PASSED] - setText(findTestObject("Company/company16/Page_ODTS System/input__select2-search__field"), "camera"): Text 'camera' is set on object 'Object Repository/Company/company16/Page_ODTS System/input__select2-search__field'
+
+2019-02-25 09:11:01 - [MESSAGE][PASSED] - Text 'camera' is set on object 'Object Repository/Company/company16/Page_ODTS System/input__select2-search__field'
+
+2019-02-25 09:11:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Company/company16/Page_ODTS System/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Company/company16/Page_ODTS System/input__select2-search__field'
+
+2019-02-25 09:11:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Company/company16/Page_ODTS System/input__select2-search__field'
+
+2019-02-25 09:11:01 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:03 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/input_Ngy Bt u_conStartDateE")): Object: 'Object Repository/Company/company16/Page_ODTS System/input_Ngy Bt u_conStartDateE' is clicked on
+
+2019-02-25 09:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/input_Ngy Bt u_conStartDateE' is clicked on
+
+2019-02-25 09:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/th_February 2019")): Object: 'Object Repository/Company/company16/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/span_Feb")): Object: 'Object Repository/Company/company16/Page_ODTS System/span_Feb' is clicked on
+
+2019-02-25 09:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/span_Feb' is clicked on
+
+2019-02-25 09:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/td_10")): Object: 'Object Repository/Company/company16/Page_ODTS System/td_10' is clicked on
+
+2019-02-25 09:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/td_10' is clicked on
+
+2019-02-25 09:11:04 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:05 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/input_Ngy Kt Thc_conEndDateE")): Object: 'Object Repository/Company/company16/Page_ODTS System/input_Ngy Kt Thc_conEndDateE' is clicked on
+
+2019-02-25 09:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/input_Ngy Kt Thc_conEndDateE' is clicked on
+
+2019-02-25 09:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/th_February 2019")): Object: 'Object Repository/Company/company16/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/th_February 2019' is clicked on
+
+2019-02-25 09:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/span_Apr")): Object: 'Object Repository/Company/company16/Page_ODTS System/span_Apr' is clicked on
+
+2019-02-25 09:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/span_Apr' is clicked on
+
+2019-02-25 09:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/td_30")): Object: 'Object Repository/Company/company16/Page_ODTS System/td_30' is clicked on
+
+2019-02-25 09:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/td_30' is clicked on
+
+2019-02-25 09:11:06 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:07 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - setText(findTestObject("Company/company16/Page_ODTS System/input_Gi Hp ng_conPriceE"), "20022 VNĐ"): Text '20022 VNĐ' is set on object 'Object Repository/Company/company16/Page_ODTS System/input_Gi Hp ng_conPriceE'
+
+2019-02-25 09:11:07 - [MESSAGE][PASSED] - Text '20022 VNĐ' is set on object 'Object Repository/Company/company16/Page_ODTS System/input_Gi Hp ng_conPriceE'
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - LASTEDIT = SimpleDateFormat(dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer2 = new java.io.PrintWriter(C:\Users\pc\Katalon Studio\Helpdesk\creDateContract.txt): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer2.print(""): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer2.close(): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\Katalon Studio\Helpdesk\creDateContract.txt), utf-8)): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer.write(LASTEDIT): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - Finally: null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - try: null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-02-25 09:11:07 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:08 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/button_Cp Nht")): Object: 'Object Repository/Company/company16/Page_ODTS System/button_Cp Nht' is clicked on
+
+2019-02-25 09:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/button_Cp Nht' is clicked on
+
+2019-02-25 09:11:09 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:10 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/button_OK")): Object: 'Object Repository/Company/company16/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 09:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 09:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/company16/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("Company/company16/Page_ODTS System/input"), "30/04/2019"): Text '30/04/2019' is set on object 'Object Repository/Company/company16/Page_ODTS System/input'
+
+2019-02-25 09:11:11 - [MESSAGE][PASSED] - Text '30/04/2019' is set on object 'Object Repository/Company/company16/Page_ODTS System/input'
+
+2019-02-25 09:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Company/company16/Page_ODTS System/button_Cn Hn Hp ng_btn btn-inf")): Object: 'Object Repository/Company/company16/Page_ODTS System/button_Cn Hn Hp ng_btn btn-inf' is clicked on
+
+2019-02-25 09:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company16/Page_ODTS System/button_Cn Hn Hp ng_btn btn-inf' is clicked on
+
+2019-02-25 09:11:11 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:12 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_Passio"), "Passio"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Passio' are matched.
+
+2019-02-25 09:11:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Passio' are matched.
+
+2019-02-25 09:11:12 - [TEST_STEP][PASSED] - EXPIREDDATE = getText(findTestObject("Object Repository/Company/company16/Page_ODTS System/p_30042019")): Text of object 'Object Repository/Company/company16/Page_ODTS System/p_30042019' is: '30/04/2019'
+
+2019-02-25 09:11:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Company/company16/Page_ODTS System/p_30042019' is: '30/04/2019'
+
+2019-02-25 09:11:12 - [TEST_STEP][PASSED] - DATE = SimpleDateFormat(dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-02-25 09:11:12 - [TEST_STEP][PASSED] - if (EXPIREDDATE.compareTo(DATE) >= 0): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Cn Hn Hp ng' are matched.
+
+2019-02-25 09:11:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company16/Page_ODTS System/p_Cn Hn Hp ng"), "Còn Hạn Hợp Đồng"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Cn Hn Hp ng' are matched.
+
+2019-02-25 09:11:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Cn Hn Hp ng' are matched.
+
+2019-02-25 09:11:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_10022019"), "10/02/2019"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_10022019' are matched.
+
+2019-02-25 09:11:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_10022019' are matched.
+
+2019-02-25 09:11:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_30042019"), "30/04/2019"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_30042019' are matched.
+
+2019-02-25 09:11:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_30042019' are matched.
+
+2019-02-25 09:11:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/td_1"), "1"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_1' are matched.
+
+2019-02-25 09:11:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_1' are matched.
+
+2019-02-25 09:11:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/td_WIFI"), "WIFI"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_WIFI' are matched.
+
+2019-02-25 09:11:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_WIFI' are matched.
+
+2019-02-25 09:11:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/td_2"), "2"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_2' are matched.
+
+2019-02-25 09:11:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_2' are matched.
+
+2019-02-25 09:11:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/td_CAMERA"), "CAMERA"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_CAMERA' are matched.
+
+2019-02-25 09:11:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/td_CAMERA' are matched.
+
+2019-02-25 09:11:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_anhtest22"), "anhtest22"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_anhtest22' are matched.
+
+2019-02-25 09:11:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_anhtest22' are matched.
+
+2019-02-25 09:11:14 - [TEST_STEP][PASSED] - date1 = SimpleDateFormat(dd/MM/yyyy).parse(EXPIREDDATE): null
+
+2019-02-25 09:11:14 - [TEST_STEP][PASSED] - date2 = SimpleDateFormat(dd/MM/yyyy).parse(DATE): null
+
+2019-02-25 09:11:14 - [TEST_STEP][PASSED] - between = DAYS.between(date2.toInstant(), date1.toInstant()): null
+
+2019-02-25 09:11:14 - [TEST_STEP][PASSED] - println(between): null
+
+2019-02-25 09:11:14 - [TEST_STEP][PASSED] - if (between > 0): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Cn 66 ngy' are matched.
+
+2019-02-25 09:11:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Company/company16/Page_ODTS System/p_Cn 66 ngy"), "Còn " + between + " ngày"): Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Cn 66 ngy' are matched.
+
+2019-02-25 09:11:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/company16/Page_ODTS System/p_Cn 66 ngy' are matched.
+
+2019-02-25 09:11:14 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_20022 VN"), "20022"): verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_20022 VN"), "20022") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company16.run(company16:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)
+
+
+2019-02-25 09:11:14 - [MESSAGE][FAILED] - Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.
+[[ATTACHMENT|C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060674409.png]]
+
+2019-02-25 09:11:15 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\pc\\Katalon Studio\\Helpdesk\\Reports\\Company14-15-16-17\\20190225_090937\\1551060674768.png]]
+
+2019-02-25 09:11:15 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Company/company16/Page_ODTS System/p_20022 VN"), "20022") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company16.run(company16:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-25 09:10:40 - [TEST_CASE][FAILED] - Test Cases/Company/company16: Test Cases/Company/company16 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '0 VNĐ' and expected text '20022' of test object 'Object Repository/Company/company16/Page_ODTS System/p_20022 VN' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company16.run(company16:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/company17" classname="Test Cases/Company/company17" status="PASSED">
+         <system-out><![CDATA[2019-02-25 09:11:15 - [TEST_CASE][PASSED] - Test Cases/Company/company17: Test Cases/Company/company17
+
+2019-02-25 09:11:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 09:11:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-25 09:11:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 09:11:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 09:11:21 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:11:24 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-02-25 09:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company17/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/company17/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:11:24 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/company17/Page_ODTS System/input_ODTS_username'
+
+2019-02-25 09:11:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Company/company17/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/company17/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:11:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/company17/Page_ODTS System/input_ODTS_password'
+
+2019-02-25 09:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/company17/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-02-25 09:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/company17/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-02-25 09:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/a_Xem Hp ng")): Object: 'Object Repository/Company/company17/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/a_Xem Hp ng' is clicked on
+
+2019-02-25 09:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/company17/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/fieldSearch' is clicked on
+
+2019-02-25 09:11:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Company/company17/Page_ODTS System/input"), "30/04/2019"): Text '30/04/2019' is set on object 'Object Repository/Company/company17/Page_ODTS System/input'
+
+2019-02-25 09:11:32 - [MESSAGE][PASSED] - Text '30/04/2019' is set on object 'Object Repository/Company/company17/Page_ODTS System/input'
+
+2019-02-25 09:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/button_Cn Hn Hp ng_btn btn-dan")): Object: 'Object Repository/Company/company17/Page_ODTS System/button_Cn Hn Hp ng_btn btn-dan' is clicked on
+
+2019-02-25 09:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/button_Cn Hn Hp ng_btn btn-dan' is clicked on
+
+2019-02-25 09:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/button_Chp Nhn Xa")): Object: 'Object Repository/Company/company17/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-02-25 09:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-02-25 09:11:33 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:34 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Company/company17/Page_ODTS System/button_OK")): Object: 'Object Repository/Company/company17/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 09:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/company17/Page_ODTS System/button_OK' is clicked on
+
+2019-02-25 09:11:34 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-02-25 09:11:35 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-02-25 09:11:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Company/company17/Page_ODTS System/td_Khng c d liu ph hp")): Object 'Object Repository/Company/company17/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-02-25 09:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/Company/company17/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-02-25 09:11:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 09:11:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-25 09:09:48 - [TEST_SUITE][FAILED] - Company14-15-16-17: Test Cases/Company/company15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-25 09:09:48 - [TEST_SUITE][FAILED] - Company14-15-16-17: Test Cases/Company/company15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Passio' of test object 'Object Repository/Company/company15/Page_ODTS System/p_Passio' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at company15.run(company15:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551060582352.run(TempTestSuite1551060582352.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
