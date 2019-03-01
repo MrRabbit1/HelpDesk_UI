@@ -14,24 +14,24 @@
       <guid>6a687f04-dea4-4550-9881-50bea0ab0d00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TypeOfDevice/typeOfDevice01</testCaseId>
+      <testCaseId>Test Cases/TypeOfDevice/Type of device-01</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>457e1542-168b-4fdc-a10f-d50fcbc3de81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TypeOfDevice/typeOfDevice02</testCaseId>
+      <testCaseId>Test Cases/TypeOfDevice/Type of device-02</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5802396b-1111-4bde-9879-708552b86806</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TypeOfDevice/typeOfDevice03</testCaseId>
+      <testCaseId>Test Cases/TypeOfDevice/Type of device-03</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0feb0bc1-4d69-4b1e-bc9c-cb2c4e11530b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TypeOfDevice/typeOfDevice04</testCaseId>
+      <testCaseId>Test Cases/TypeOfDevice/Type of device-04</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -14,24 +14,24 @@
       <guid>a480adbc-4c56-45d3-9cc4-afbc5328f72b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Company/company06</testCaseId>
+      <testCaseId>Test Cases/Company/Company-06</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed5a164c-a385-46b5-a65b-0c1e79055c24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Company/company07</testCaseId>
+      <testCaseId>Test Cases/Company/Company-07</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f31847c6-b56b-4277-ab0f-e2e258fa1c34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Company/company08</testCaseId>
+      <testCaseId>Test Cases/Company/Company-08</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e00ac7e5-ca95-4fc7-b883-4b9bc562d930</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Company/company09</testCaseId>
+      <testCaseId>Test Cases/Company/Company-09</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

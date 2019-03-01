@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Company06-07-08-09" time="142" tests="2" failures="2" errors="0">
+   <testsuite name="Company06-07-08-09" tests="2" failures="2" errors="0" time="142" timestamp="2019-03-01 14:08:01" hostname="Ninja - AnhNVSE63446" id="Test Suites/Company06-07-08-09">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pc\\HelpdeskAutomation\\Reports\\Company06-07-08-09\\20190301_140751"/>
+         <property name="logFiles" value="C:\\Users\\pc\\HelpdeskAutomation\\Reports\\Company06-07-08-09\\20190301_140751\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pc\\HelpdeskAutomation\\Reports\\Company06-07-08-09\\20190301_140751\\1551424142937.png, C:\\Users\\pc\\HelpdeskAutomation\\Reports\\Company06-07-08-09\\20190301_140751\\1551424209943.png"/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="sessionId" value="444468f7aa38f0400739b66fdd27babb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Company/Company-06" classname="Test Cases/Company/Company-06" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Company/Company-06 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-01 14:08:02 - [TEST_CASE][FAILED] - Test Cases/Company/Company-06: Test Cases/Company/Company-06 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)
+
+
+2019-03-01 14:08:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-01 14:08:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 14:08:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-01 14:08:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 14:08:09 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:08:15 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:08:15 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-06/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:08:16 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:08:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Company/Company-06/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:08:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-03-01 14:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-03-01 14:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/a_Xem Chi Nhnh")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:08:20 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/font_To Chi Nhnh")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/font_To Chi Nhnh' is clicked on
+
+2019-03-01 14:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/font_To Chi Nhnh' is clicked on
+
+2019-03-01 14:08:20 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:21 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/span_--Chn ti khon--")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/span_--Chn ti khon--' is clicked on
+
+2019-03-01 14:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/span_--Chn ti khon--' is clicked on
+
+2019-03-01 14:08:22 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-06/Page_ODTS System/input_ng_select2-search__field"), "14021"): Text '14021' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_ng_select2-search__field'
+
+2019-03-01 14:08:22 - [MESSAGE][PASSED] - Text '14021' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_ng_select2-search__field'
+
+2019-03-01 14:08:22 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:23 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Company/Company-06/Page_ODTS System/input_ng_select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Company/Company-06/Page_ODTS System/input_ng_select2-search__field'
+
+2019-03-01 14:08:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Company/Company-06/Page_ODTS System/input_ng_select2-search__field'
+
+2019-03-01 14:08:23 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:24 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-06/Page_ODTS System/input_Tn Chi Nhnh_ee"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_Tn Chi Nhnh_ee'
+
+2019-03-01 14:08:24 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_Tn Chi Nhnh_ee'
+
+2019-03-01 14:08:24 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:25 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-06/Page_ODTS System/input_Tn Qun L Chi Nhnh_yy"), "anh"): Text 'anh' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_Tn Qun L Chi Nhnh_yy'
+
+2019-03-01 14:08:26 - [MESSAGE][PASSED] - Text 'anh' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_Tn Qun L Chi Nhnh_yy'
+
+2019-03-01 14:08:26 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:27 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:27 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-06/Page_ODTS System/input_a Ch_rr"), "hihi"): Text 'hihi' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_a Ch_rr'
+
+2019-03-01 14:08:27 - [MESSAGE][PASSED] - Text 'hihi' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_a Ch_rr'
+
+2019-03-01 14:08:27 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:28 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:28 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-06/Page_ODTS System/input_S in Thoi_tt"), "0123456789"): Text '0123456789' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_S in Thoi_tt'
+
+2019-03-01 14:08:29 - [MESSAGE][PASSED] - Text '0123456789' is set on object 'Object Repository/Company/Company-06/Page_ODTS System/input_S in Thoi_tt'
+
+2019-03-01 14:08:29 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:08:30 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/button_To Mi")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/button_To Mi' is clicked on
+
+2019-03-01 14:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/button_To Mi' is clicked on
+
+2019-03-01 14:08:30 - [TEST_STEP][FAILED] - click(findTestObject("Company/Company-06/Page_ODTS System/button_OK")): click(findTestObject("Company/Company-06/Page_ODTS System/button_OK")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)
+
+
+2019-03-01 14:09:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-01 14:09:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+[[ATTACHMENT|C:\\Users\\pc\\HelpdeskAutomation\\Reports\\Company06-07-08-09\\20190301_140751\\1551424142937.png]]
+
+2019-03-01 14:09:03 - [MESSAGE][FAILED] - click(findTestObject("Company/Company-06/Page_ODTS System/button_OK")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-01 14:08:02 - [TEST_CASE][FAILED] - Test Cases/Company/Company-06: Test Cases/Company/Company-06 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/Company-07" classname="Test Cases/Company/Company-07" status="PASSED">
+         <system-out><![CDATA[2019-03-01 14:09:03 - [TEST_CASE][PASSED] - Test Cases/Company/Company-07: Test Cases/Company/Company-07
+
+2019-03-01 14:09:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-01 14:09:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-01 14:09:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 14:09:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 14:09:08 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:09:09 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-07/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/Company-07/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:09:10 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/Company-07/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:09:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Company/Company-07/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/Company-07/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:09:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/Company-07/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/span_Cng Ty")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/span_Cng Ty' is clicked on
+
+2019-03-01 14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/span_Cng Ty' is clicked on
+
+2019-03-01 14:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/a_Xem Chi Nhnh")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:09:17 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:09:18 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-01 14:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-01 14:09:18 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-07/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/Company/Company-07/Page_ODTS System/input'
+
+2019-03-01 14:09:18 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/Company/Company-07/Page_ODTS System/input'
+
+2019-03-01 14:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/button_Xem Thit b_btn btn-info")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/button_Xem Thit b_btn btn-info' is clicked on
+
+2019-03-01 14:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/button_Xem Thit b_btn btn-info' is clicked on
+
+2019-03-01 14:09:19 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:09:20 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:09:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/Company-07/Page_ODTS System/p_Passio"), "Passio"): Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_Passio' are matched.
+
+2019-03-01 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_Passio' are matched.
+
+2019-03-01 14:09:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/Company-07/Page_ODTS System/p_anhtest"), "anhtest"): Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_anhtest' are matched.
+
+2019-03-01 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_anhtest' are matched.
+
+2019-03-01 14:09:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/Company-07/Page_ODTS System/p_anh"), "anh"): Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_anh' are matched.
+
+2019-03-01 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_anh' are matched.
+
+2019-03-01 14:09:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/Company-07/Page_ODTS System/p_14021"), "14021"): Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_14021' are matched.
+
+2019-03-01 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_14021' are matched.
+
+2019-03-01 14:09:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/Company-07/Page_ODTS System/p_hihi"), "hihi"): Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_hihi' are matched.
+
+2019-03-01 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_hihi' are matched.
+
+2019-03-01 14:09:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Company/Company-07/Page_ODTS System/p_0123456789"), "0123456789"): Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_0123456789' are matched.
+
+2019-03-01 14:09:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Company/Company-07/Page_ODTS System/p_0123456789' are matched.
+
+2019-03-01 14:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/button_ng")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/button_ng' is clicked on
+
+2019-03-01 14:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/button_ng' is clicked on
+
+2019-03-01 14:09:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-01 14:09:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/Company-08" classname="Test Cases/Company/Company-08" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Company/Company-08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' located by 'By.xpath: (//button[@type='button'])[5]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-08.run(Company-08:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-01 14:09:22 - [TEST_CASE][FAILED] - Test Cases/Company/Company-08: Test Cases/Company/Company-08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' located by 'By.xpath: (//button[@type='button'])[5]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-08.run(Company-08:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)
+
+
+2019-03-01 14:09:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-01 14:09:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 14:09:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 14:09:25 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:09:26 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-08/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/Company-08/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:09:27 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/Company-08/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:09:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Company/Company-08/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/Company-08/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:09:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/Company-08/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-08/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/Company-08/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-08/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-06/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/Company-06/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-03-01 14:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-06/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-03-01 14:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-08/Page_ODTS System/a_Xem Chi Nhnh")): Object: 'Object Repository/Company/Company-08/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-08/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-07/Page_ODTS System/span_Cng Ty")): Object: 'Object Repository/Company/Company-07/Page_ODTS System/span_Cng Ty' is clicked on
+
+2019-03-01 14:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-07/Page_ODTS System/span_Cng Ty' is clicked on
+
+2019-03-01 14:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-08/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/Company-08/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-01 14:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-08/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-01 14:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-08/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/Company/Company-08/Page_ODTS System/input'
+
+2019-03-01 14:09:37 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/Company/Company-08/Page_ODTS System/input'
+
+2019-03-01 14:09:37 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-01 14:09:38 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-01 14:09:38 - [TEST_STEP][FAILED] - click(findTestObject("Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn")): click(findTestObject("Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' located by 'By.xpath: (//button[@type='button'])[5]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-08.run(Company-08:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)
+
+
+2019-03-01 14:10:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-01 14:10:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' located by 'By.xpath: (//button[@type='button'])[5]' not found)
+[[ATTACHMENT|C:\\Users\\pc\\HelpdeskAutomation\\Reports\\Company06-07-08-09\\20190301_140751\\1551424209943.png]]
+
+2019-03-01 14:10:10 - [MESSAGE][FAILED] - click(findTestObject("Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' located by 'By.xpath: (//button[@type='button'])[5]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-08.run(Company-08:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-01 14:09:22 - [TEST_CASE][FAILED] - Test Cases/Company/Company-08: Test Cases/Company/Company-08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-warn' located by 'By.xpath: (//button[@type='button'])[5]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-08.run(Company-08:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/Company-09" classname="Test Cases/Company/Company-09" status="PASSED">
+         <system-out><![CDATA[2019-03-01 14:10:10 - [TEST_CASE][PASSED] - Test Cases/Company/Company-09: Test Cases/Company/Company-09
+
+2019-03-01 14:10:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-01 14:10:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-01 14:10:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-01 14:10:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-01 14:10:14 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:10:16 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-01 14:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-09/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/Company/Company-09/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:10:16 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/Company/Company-09/Page_ODTS System/input_ODTS_username'
+
+2019-03-01 14:10:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Company/Company-09/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Company/Company-09/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:10:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Company/Company-09/Page_ODTS System/input_ODTS_password'
+
+2019-03-01 14:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-09/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-01 14:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-09/Page_ODTS System/a_Cng Ty")): Object: 'Object Repository/Company/Company-09/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-03-01 14:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-09/Page_ODTS System/a_Cng Ty' is clicked on
+
+2019-03-01 14:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-09/Page_ODTS System/a_Xem Chi Nhnh")): Object: 'Object Repository/Company/Company-09/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-09/Page_ODTS System/a_Xem Chi Nhnh' is clicked on
+
+2019-03-01 14:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-08/Page_ODTS System/fieldSearch")): Object: 'Object Repository/Company/Company-08/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-01 14:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-08/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-01 14:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Company/Company-09/Page_ODTS System/input"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/Company/Company-09/Page_ODTS System/input'
+
+2019-03-01 14:10:21 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/Company/Company-09/Page_ODTS System/input'
+
+2019-03-01 14:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-09/Page_ODTS System/button_Xem Thit b_btn btn-dang")): Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_Xem Thit b_btn btn-dang' is clicked on
+
+2019-03-01 14:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_Xem Thit b_btn btn-dang' is clicked on
+
+2019-03-01 14:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-09/Page_ODTS System/button_Chp Nhn Xa")): Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-03-01 14:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-03-01 14:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Company/Company-09/Page_ODTS System/button_OK")): Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_OK' is clicked on
+
+2019-03-01 14:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Company/Company-09/Page_ODTS System/button_OK' is clicked on
+
+2019-03-01 14:10:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Company/Company-09/Page_ODTS System/td_Khng c d liu ph hp")): Object 'Object Repository/Company/Company-09/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-03-01 14:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/Company/Company-09/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-03-01 14:10:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-01 14:10:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-01 14:08:01 - [TEST_SUITE][FAILED] - Company06-07-08-09: Test Cases/Company/Company-06 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-01 14:08:01 - [TEST_SUITE][FAILED] - Company06-07-08-09: Test Cases/Company/Company-06 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Company/Company-06/Page_ODTS System/button_OK' located by 'By.xpath: /html[@class='swal2-shown']/body[@class='skin-blue sidebar-mini swal2-shown']/div[@class='swal2-container swal2-center swal2-fade swal2-shown']/div[@class='swal2-modal swal2-show']/div[@class='swal2-buttonswrapper']/button[@class='swal2-confirm swal2-styled']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Company-06.run(Company-06:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551424075981.run(TempTestSuite1551424075981.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
