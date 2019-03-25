@@ -44,7 +44,7 @@ WebUI.waitForAlert(1)
 
 WebUI.verifyElementText(findTestObject('Company/Company-11/Page_ODTS System/p_anhtest'), 'anhtest')
 
-WebUI.verifyElementText(findTestObject('Company/Company-11/Page_ODTS System/p_Wifi'), 'Wifi')
+WebUI.verifyElementText(findTestObject('Company/Company-11/Page_ODTS System/p_Wifi'), 'Camera')
 
 WebUI.verifyElementText(findTestObject('Company/Company-11/Page_ODTS System/p_hihi'), 'hihi')
 

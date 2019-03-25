@@ -53,7 +53,7 @@ WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_25
 
 WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/td_1'), '1')
 
-WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/td_WIFI'), 'WIFI MARKETING')
+WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/td_WIFI'), 'Wifi Marketing')
 
 WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_anhtest'), 'anhtest')
 

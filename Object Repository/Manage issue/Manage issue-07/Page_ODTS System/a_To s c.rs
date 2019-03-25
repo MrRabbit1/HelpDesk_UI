@@ -3,11 +3,11 @@
    <description></description>
    <name>a_To s c</name>
    <tag></tag>
-   <elementGuidId>04508930-8077-46c3-8ffa-37dca724e74a</elementGuidId>
+   <elementGuidId>7cfd0794-9f3d-4787-9ed2-47a63692c7f0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>a</value>
+         <value>//a[@onclick='showCreateModal()']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

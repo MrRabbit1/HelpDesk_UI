@@ -3,7 +3,7 @@
    <description></description>
    <name>button_To Mi</name>
    <tag></tag>
-   <elementGuidId>9ba9523f-b442-4d31-b1e5-3e182f512f89</elementGuidId>
+   <elementGuidId>48f754ec-aeba-4988-a1a6-a5f31a9c2b21</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

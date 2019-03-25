@@ -61,6 +61,8 @@ WebUI.waitForAlert(1)
 
 WebUI.click(findTestObject('Company/Company-06/Page_ODTS System/button_To Mi'))
 
+WebUI.waitForAlert(1)
+
 WebUI.click(findTestObject('Company/Company-06/Page_ODTS System/button_OK'))
 
 WebUI.waitForAlert(1)

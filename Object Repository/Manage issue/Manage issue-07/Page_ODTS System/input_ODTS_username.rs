@@ -3,11 +3,11 @@
    <description></description>
    <name>input_ODTS_username</name>
    <tag></tag>
-   <elementGuidId>db8d69a3-a592-4d23-99d9-291b38252e25</elementGuidId>
+   <elementGuidId>7535bf6d-efdf-4116-a733-bcf4fe032362</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>a</value>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body[@class='skin-blue sidebar-mini modal-open']/div[@class='datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top']/div[@class='datepicker-months']/table[@class='table-condensed']/tbody/tr/td/span[@class='month focused']</value>
+         <value>/html/body[@class='skin-blue sidebar-mini modal-open']/div[@class='datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top']/div[@class='datepicker-months']/table[@class='table-condensed']/tbody/tr/td/span[@class='month'][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

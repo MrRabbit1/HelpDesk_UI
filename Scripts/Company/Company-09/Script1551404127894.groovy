@@ -36,7 +36,11 @@ WebUI.click(findTestObject('Company/Company-09/Page_ODTS System/button_Xem Thit 
 
 WebUI.click(findTestObject('Company/Company-09/Page_ODTS System/button_Chp Nhn Xa'))
 
+WebUI.waitForAlert(1)
+
 WebUI.click(findTestObject('Company/Company-09/Page_ODTS System/button_OK'))
+
+WebUI.waitForAlert(1)
 
 WebUI.verifyElementVisible(findTestObject('Company/Company-09/Page_ODTS System/td_Khng c d liu ph hp'))
 

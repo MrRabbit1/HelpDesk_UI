@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/span_--Chn loi t
 
 WebUI.waitForAlert(1)
 
-WebUI.setText(findTestObject('Company/Company-10/Page_ODTS System/input_ng_select2-search__field'), 'wifi')
+WebUI.setText(findTestObject('Company/Company-10/Page_ODTS System/input_ng_select2-search__field'), 'Camera')
 
 WebUI.waitForAlert(1)
 
@@ -106,6 +106,8 @@ WebUI.waitForAlert(1)
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/button_To Mi'))
 
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/button_OK'))
+
+WebUI.waitForAlert(1)
 
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/fieldSearch'))
 

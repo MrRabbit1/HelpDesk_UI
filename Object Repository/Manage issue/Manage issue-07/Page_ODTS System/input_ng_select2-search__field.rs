@@ -3,7 +3,7 @@
    <description></description>
    <name>input_ng_select2-search__field</name>
    <tag></tag>
-   <elementGuidId>fcc79360-233b-4bff-9f38-fca6fff0f7ce</elementGuidId>
+   <elementGuidId>e80d3d7c-685e-4e14-a1fa-659d8f370759</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -110,13 +110,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Passio 47 TCV'])[2]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--Chọn chi nhánh--'])[3]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cập nhật thông tin'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Passio 47 TCV'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

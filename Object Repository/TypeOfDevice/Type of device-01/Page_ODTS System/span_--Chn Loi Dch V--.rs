@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body[@class='skin-blue sidebar-mini modal-open']/div[@class='wrapper']/div[@class='content-wrapper']/section[@class='content-header']/form[2]/div[@id='EditModal']/div[@class='modal-dialog']/div[@class='modal-content']/div[@class='modal-body']/div[@class='row']/div[@class='col-md-12'][2]/select[@id='comboServiceEdit']</value>
+         <value>/html/body[@class='skin-blue sidebar-mini modal-open']/div[@class='wrapper']/div[@class='content-wrapper']/section[@class='content-header']/form[1]/div[@class='container']/div[@id='CreateModal']/div[@class='modal-dialog']/div[@class='modal-content']/div[@class='modal-body']/div[@class='row']/div[@class='col-md-12'][2]/span[@class='select2 select2-container select2-container--default']/span[@class='selection']/span[@class='select2-selection select2-selection--single']/span[@class='select2-selection__arrow']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

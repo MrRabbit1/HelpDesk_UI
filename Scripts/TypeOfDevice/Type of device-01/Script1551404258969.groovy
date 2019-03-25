@@ -76,7 +76,7 @@ WebUI.setText(findTestObject('TypeOfDevice/Type of device-01/Page_ODTS System/in
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-01/Page_ODTS System/td_anhtest'), 'anhtest')
 
-WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-01/Page_ODTS System/td_CAMERA'), 'CAMERA')
+WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-01/Page_ODTS System/td_CAMERA'), 'Camera')
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-01/Page_ODTS System/td_hihi'), 'hihi')
 

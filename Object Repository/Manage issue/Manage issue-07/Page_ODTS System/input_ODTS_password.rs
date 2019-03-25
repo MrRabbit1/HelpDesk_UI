@@ -3,11 +3,11 @@
    <description></description>
    <name>input_ODTS_password</name>
    <tag></tag>
-   <elementGuidId>11829429-37e0-4666-8bf2-6591ae23b218</elementGuidId>
+   <elementGuidId>8082248f-007a-48be-8d12-ea31f17c38ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>a</value>
+         <value>//input[@id='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -76,7 +76,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'password', '&quot;', ')')])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'username', '&quot;', ')')])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

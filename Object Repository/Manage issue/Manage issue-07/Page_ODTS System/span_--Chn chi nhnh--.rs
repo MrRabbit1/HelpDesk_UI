@@ -3,7 +3,7 @@
    <description></description>
    <name>span_--Chn chi nhnh--</name>
    <tag></tag>
-   <elementGuidId>4c05217d-6370-4c91-ba83-bf5bae575450</elementGuidId>
+   <elementGuidId>00191da6-f523-4c3f-9430-29976baf5d2c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

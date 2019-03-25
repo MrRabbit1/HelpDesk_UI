@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='select2-ww-container']</value>
+         <value>/html/body[@class='skin-blue sidebar-mini modal-open']/div[@class='wrapper']/div[@class='content-wrapper']/section[@class='content-header']/form[2]/div[@class='container']/div[@id='createAgencyModal']/div[@class='modal-dialog']/div[@class='modal-content']/div[@class='modal-body']/div[@class='row']/div[@class='col-md-12'][2]/span[@class='select2 select2-container select2-container--default']/span[@class='selection']/span[@class='select2-selection select2-selection--single']/span[@class='select2-selection__arrow']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -54,46 +54,4 @@
       <type>Main</type>
       <value>id(&quot;select2-ww-container&quot;)</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//span[@id='select2-ww-container']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='createAgencyModal']/div/div/div[2]/div/div[2]/span/span/span/span</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn Tài Khoản:'])[1]/following::span[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên Công Ty Sở Hữu:'])[3]/following::span[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên Chi Nhánh:'])[2]/preceding::span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên Quản Lý Chi Nhánh:'])[2]/preceding::span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//span/span/span/span</value>
-   </webElementXpaths>
 </WebElementEntity>

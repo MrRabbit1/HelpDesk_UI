@@ -37,7 +37,7 @@ WebUI.waitForAlert(1)
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-02/Page_ODTS System/p_anhtest'), 'anhtest')
 
-WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-02/Page_ODTS System/p_CAMERA'), 'CAMERA')
+WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-02/Page_ODTS System/p_CAMERA'), 'Camera')
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-02/Page_ODTS System/p_hihi'), 'hihi')
 

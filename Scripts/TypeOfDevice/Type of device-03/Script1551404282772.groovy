@@ -72,7 +72,7 @@ WebUI.waitForAlert(1)
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/p_anhtest22'), 'anhtest22')
 
-WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/p_WIFI'), 'WIFI MARKETING')
+WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/p_WIFI'), 'Wifi Marketing')
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/p_hihi22'), 'hihi22')
 

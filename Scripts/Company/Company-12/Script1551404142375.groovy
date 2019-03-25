@@ -2,8 +2,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.text.SimpleDateFormat
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.junit.After
 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
@@ -32,8 +34,8 @@ WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/button_hihi_btn 
 
 WebUI.waitForAlert(1)
 
-WebUI.selectOptionByValue(findTestObject('Company/Company-12/Page_ODTS System/select_--Chn loi thit b--WifiC'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Company/Company-12/Page_ODTS System/select_--Chn loi thit b--Access PointCameraPos My In BillMn HnhRouterFingerThit B in Lnhn Trong NhSwitch')
+	, "4", true)
 
 WebUI.waitForAlert(1)
 
@@ -47,7 +49,11 @@ WebUI.waitForAlert(1)
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/input_Ngy Bo Hnh_dvGDateE'))
 
+WebUI.waitForAlert(1)
+
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh'))
+
+WebUI.waitForAlert(1)
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh2'))
 
@@ -57,7 +63,11 @@ WebUI.waitForAlert(1)
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/input_Hn Bo Hnh_dvGEndDateE'))
 
+WebUI.waitForAlert(1)
+
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh'))
+
+WebUI.waitForAlert(1)
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonHanBaoHanh'))
 
@@ -90,6 +100,8 @@ def UDATE = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().get
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/button_Cp Nht'))
 
+WebUI.waitForAlert(1)
+
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/button_OK'))
 
 WebUI.waitForAlert(1)
@@ -100,7 +112,7 @@ WebUI.waitForAlert(1)
 
 WebUI.verifyElementText(findTestObject('Company/Company-12/Page_ODTS System/p_anhtest22'), 'anhtest22')
 
-WebUI.verifyElementText(findTestObject('Company/Company-12/Page_ODTS System/p_Camera'), 'Camera')
+WebUI.verifyElementText(findTestObject('Company/Company-12/Page_ODTS System/p_Camera'), 'Pos')
 
 WebUI.verifyElementText(findTestObject('Company/Company-12/Page_ODTS System/p_hihi22'), 'hihi22')
 

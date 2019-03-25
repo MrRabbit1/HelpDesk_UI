@@ -136,7 +136,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporte
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_Q1222'), 'Q1222')
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng'), 'CAMERA, 22 tháng | POS, 11 tháng | EMAIL, 33 tháng |')
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng'), 'Camera, 22 tháng | Pos, 11 tháng | Email, 33 tháng |')
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng'))
 

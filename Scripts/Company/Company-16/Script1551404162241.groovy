@@ -125,11 +125,11 @@ WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/p_30
 
 WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/td_1'), '1')
 
-WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/td_WIFI'), 'WIFI MARKETING')
+WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/td_WIFI'), 'Wifi Marketing')
 
 WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/td_2'), '2')
 
-WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/td_CAMERA'), 'CAMERA')
+WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/td_CAMERA'), 'Camera')
 
 WebUI.verifyElementText(findTestObject('Company/Company-16/Page_ODTS System/p_anhtest22'), 'anhtest22')
 

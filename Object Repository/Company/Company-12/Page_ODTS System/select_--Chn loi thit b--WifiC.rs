@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='comboDeviceTypeE']</value>
+         <value>/html/body[@class='skin-blue sidebar-mini modal-open']/div[@class='wrapper']/div[@class='content-wrapper']/section[@class='content-header']/form[2]/div[@id='EditModal']/div[@class='modal-dialog']/div[@class='modal-content']/div[@class='modal-body']/div[@class='row']/div[@class='col-md-12'][3]/select[@id='comboDeviceTypeE']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -47,46 +47,4 @@
       <type>Main</type>
       <value>id(&quot;comboDeviceTypeE&quot;)</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//select[@id='comboDeviceTypeE']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='EditModal']/div/div/div[2]/div/div[3]/select</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loại Thiết Bị:'])[3]/following::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên Chi Nhánh:'])[2]/following::select[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên Thiết Bị:'])[3]/preceding::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code:'])[2]/preceding::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//form[2]/div/div/div/div[2]/div/div[3]/select</value>
-   </webElementXpaths>
 </WebElementEntity>

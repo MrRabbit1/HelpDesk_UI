@@ -60,7 +60,9 @@ WebUI.click(findTestObject('Company/Company-08/Page_ODTS System/button_OK'))
 
 WebUI.click(findTestObject('Company/Company-08/Page_ODTS System/button_Xem Thit b_btn btn-info'))
 
-WebUI.verifyElementText(findTestObject('Company/Company-08/Page_ODTS System/p_Passio'), 'Passio')
+WebUI.waitForAlert(1)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Company/Company-08/Page_ODTS System/p_Passio'), 'Passio')
 
 WebUI.verifyElementText(findTestObject('Company/Company-08/Page_ODTS System/p_anhtest22'), 'anhtest22')
 

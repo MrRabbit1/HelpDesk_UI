@@ -64,6 +64,8 @@ WebUI.click(findTestObject('Company/Company-04/Page_ODTS System/button_Cp Nht'))
 
 WebUI.click(findTestObject('Company/Company-04/Page_ODTS System/button_OK'))
 
+WebUI.waitForAlert(1)
+
 WebUI.click(findTestObject('Company/Company-04/Page_ODTS System/button_Xem Hp ng_btn btn-info'))
 
 WebUI.waitForAlert(2)
