@@ -1,12 +1,10 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
+import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Company/Company-04/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -45,19 +43,26 @@ WebUI.setText(findTestObject('Company/Company-04/Page_ODTS System/input_ Thn Thu
 WebUI.waitForAlert(2)
 
 String UDATE = new SimpleDateFormat('HH:mm dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 
-Writer writer = null;
+//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
+Writer writer = null
 
 try {
-	writer = new BufferedWriter(new OutputStreamWriter(
-		new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\upDateCompany.txt"), "utf-8"));
-	writer.write(UDATE);
-	//Lưu giá trị ngày cập nhật vào file
-} catch (IOException ex) {
-	// Report
-} finally {
-   try {writer.close();} catch (Exception ex) {/*ignore*/}
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateCompany.txt'), 
+    'utf-8'))
+
+    writer.write(UDATE) //Lưu giá trị ngày cập nhật vào file
+}
+catch (IOException ex) {
+    // Report
+} 
+finally { 
+    try {
+        writer.close()
+    }
+    catch (Exception ex) {
+        /*ignore*/ 
+    } 
 }
 
 WebUI.click(findTestObject('Company/Company-04/Page_ODTS System/button_Cp Nht'))
@@ -74,20 +79,24 @@ WebUI.verifyElementText(findTestObject('Company/Company-04/Page_ODTS System/p_an
 
 WebUI.verifyElementText(findTestObject('Company/Company-04/Page_ODTS System/p_hihi22'), 'hihi22')
 
-String CDATE = null;
-BufferedReader br = null;
+String CDATE = null
+
+BufferedReader br = null
+
 try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateCompany.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateCompany.txt'))
+
+    String sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    } //Lấy giá trị ngày tạo từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
 
 WebUI.verifyElementText(findTestObject('Company/Company-04/Page_ODTS System/p_1458 21022019'), CDATE)
 

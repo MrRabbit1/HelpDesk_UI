@@ -1,19 +1,15 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
-import org.openqa.selenium.Keys
-
+import java.text.SimpleDateFormat as SimpleDateFormat
+import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_ODTS_username'), 'admin01')
 
-WebUI.setEncryptedText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_ODTS_password'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_ODTS_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/button_ng Nhp'))
 
@@ -27,36 +23,41 @@ WebUI.click(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/butt
 
 WebUI.waitForAlert(1)
 
-WebUI.setText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_Tn Loi Thit B_dtNameCrea'), 
-    'anhtest22')
+WebUI.setText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_Tn Loi Thit B_dtNameCrea'), 'anhtest22')
 
 WebUI.waitForAlert(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/TypeOfDevice/Type of device-03/Page_ODTS System/select_--Chn Loi Dch V--WIFICA'), "52", true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/TypeOfDevice/Type of device-03/Page_ODTS System/select_--Chn Loi Dch V--WIFICA'), 
+    '52', true)
 
 WebUI.waitForAlert(1)
 
-WebUI.setText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_M T Loi Thit B_dtDescrip'), 
-    'hihi22')
+WebUI.setText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/input_M T Loi Thit B_dtDescrip'), 'hihi22')
 
 WebUI.waitForAlert(1)
 
 def UDATE = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 
-Writer writer = null;
+//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
+Writer writer = null
 
 try {
-	writer = new BufferedWriter(new OutputStreamWriter(
-		new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\upDateTypeOfDevice.txt"), "utf-8"));
-	writer.write(UDATE);
-	//Lưu giá trị ngày cập nhật vào file
-} catch (IOException ex) {
-	// Report
-} finally {
-   try {writer.close();} catch (Exception ex) {/*ignore*/}
-}
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateTypeOfDevice.txt'), 
+    'utf-8'))
 
+    writer.write(UDATE) //Lưu giá trị ngày cập nhật vào file
+}
+catch (IOException ex) {
+    // Report
+} 
+finally { 
+    try {
+        writer.close()
+    }
+    catch (Exception ex) {
+        /*ignore*/ 
+    } 
+}
 
 WebUI.click(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/button_Cp Nht'))
 
@@ -76,20 +77,24 @@ WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/p_hihi22'), 'hihi22')
 
-String CDATE = null;
-BufferedReader br = null;
+String CDATE = null
+
+BufferedReader br = null
+
 try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateTypeOfDevice.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateTypeOfDevice.txt'))
+
+    String sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    } //Lấy giá trị ngày tạo từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
 
 WebUI.verifyElementText(findTestObject('TypeOfDevice/Type of device-03/Page_ODTS System/p_25022019'), CDATE)
 

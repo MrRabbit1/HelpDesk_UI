@@ -1,12 +1,10 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
+import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -51,7 +49,8 @@ WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_OD
 
 WebUI.waitForAlert(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'), 
+    '2', true)
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'), 
     '22')
@@ -101,19 +100,26 @@ WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_OD
 WebUI.waitForAlert(1)
 
 def UDATE = new SimpleDateFormat('HH:mm dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 
-Writer writer = null;
+//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
+Writer writer = null
 
 try {
-	writer = new BufferedWriter(new OutputStreamWriter(
-		new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt"), "utf-8"));
-	writer.write(UDATE);
-	//Lưu giá trị ngày cập nhật vào file
-} catch (IOException ex) {
-	// Report
-} finally {
-   try {writer.close();} catch (Exception ex) {/*ignore*/}
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt'), 
+    'utf-8'))
+
+    writer.write(UDATE) //Lưu giá trị ngày cập nhật vào file
+}
+catch (IOException ex) {
+    // Report
+} 
+finally { 
+    try {
+        writer.close()
+    }
+    catch (Exception ex) {
+        /*ignore*/ 
+    } 
 }
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Cp Nht'))
@@ -132,11 +138,13 @@ WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporte
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22'), 'anhtest22')
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anh.nguyenwisky.vn22'), 'anh.nguyen@wisky.vn22')
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anh.nguyenwisky.vn22'), 
+    'anh.nguyen@wisky.vn22')
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_Q1222'), 'Q1222')
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng'), 'Camera, 22 tháng | Pos, 11 tháng | Email, 33 tháng |')
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng'), 
+    'Camera, 22 tháng | Pos, 11 tháng | Email, 33 tháng |')
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng'))
 
@@ -156,24 +164,30 @@ WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporte
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22_1'), 'anhtest22')
 
-String CDATE = null;
-BufferedReader br = null;
-try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
-	
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0923 01032019'), CDATE)
+String CDATE = null
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0943 01032019'), UDATE)
+BufferedReader br = null
+
+try {
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt'))
+
+    String sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    } //Lấy giá trị ngày tạo từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
+
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0923 01032019'), 
+    CDATE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0943 01032019'), 
+    UDATE)
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng'))
 

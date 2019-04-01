@@ -5,7 +5,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Company/Company-14/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -52,19 +52,26 @@ WebUI.setText(findTestObject('Company/Company-14/Page_ODTS System/input_Gi Hp ng
 WebUI.click(findTestObject('Company/Company-14/Page_ODTS System/button_To Mi'))
 
 def CDATE = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày tạo theo format dd/MM/yyyy
 
-Writer writer = null;
+//Lấy giá trị ngày tạo theo format dd/MM/yyyy
+Writer writer = null
 
 try {
-	writer = new BufferedWriter(new OutputStreamWriter(
-		  new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt"), "utf-8"));
-	writer.write(CDATE);
-	//Lưu giá trị ngày tạo vào file
-} catch (IOException ex) {
-	// Report
-} finally {
-   try {writer.close();} catch (Exception ex) {/*ignore*/}
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt'), 
+    'utf-8'))
+
+    writer.write(CDATE) //Lưu giá trị ngày tạo vào file
+}
+catch (IOException ex) {
+    // Report
+} 
+finally { 
+    try {
+        writer.close()
+    }
+    catch (Exception ex) {
+        /*ignore*/ 
+    } 
 }
 
 WebUI.waitForAlert(1)
@@ -86,18 +93,22 @@ WebUI.verifyElementText(findTestObject('Company/Company-14/Page_ODTS System/td_2
 WebUI.verifyElementText(findTestObject('Company/Company-14/Page_ODTS System/td_200'), '200')
 
 def EXPIREDDATE = WebUI.getText(findTestObject('Company/Company-14/Page_ODTS System/td_25042019'))
+
 //Lấy giá trị ngày hết hạn hợp đồng
 def CDATE1 = new SimpleDateFormat('dd/MM/yyyy').parse(CDATE)
-def EXPIREDDATE1 = new SimpleDateFormat('dd/MM/yyyy').parse(EXPIREDDATE)
-def CDATE2 = new SimpleDateFormat('yyyy/MM/dd').format(CDATE1)
-def EXPIREDDATE2 = new SimpleDateFormat('yyyy/MM/dd').format(EXPIREDDATE1)
-//Chuyển đổi format ngày để so sánh
 
+def EXPIREDDATE1 = new SimpleDateFormat('dd/MM/yyyy').parse(EXPIREDDATE)
+
+def CDATE2 = new SimpleDateFormat('yyyy/MM/dd').format(CDATE1)
+
+def EXPIREDDATE2 = new SimpleDateFormat('yyyy/MM/dd').format(EXPIREDDATE1)
+
+//Chuyển đổi format ngày để so sánh
 if (EXPIREDDATE2.compareTo(CDATE2) >= 0) //So sánh ngày hết hạn hợp đồng và ngày hôm nay
 {
-	WebUI.verifyElementText(findTestObject('Company/Company-14/Page_ODTS System/span_Cn Hn Hp ng'), 'Còn Hạn Hợp Đồng')
+    WebUI.verifyElementText(findTestObject('Company/Company-14/Page_ODTS System/span_Cn Hn Hp ng'), 'Còn Hạn Hợp Đồng')
 } else {
-	WebUI.verifyElementText(findTestObject('Company/Company-14/Page_ODTS System/span_Cn Hn Hp ng'), 'Đã hết hạn hợp đồng')
+    WebUI.verifyElementText(findTestObject('Company/Company-14/Page_ODTS System/span_Cn Hn Hp ng'), 'Đã hết hạn hợp đồng')
 }
 
 WebUI.closeBrowser()

@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -35,16 +35,20 @@ WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-04/Page_OD
 
 WebUI.waitForAlert(1)
 
-PrintWriter writer2 = new PrintWriter("C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt");
-writer2.print("");
-writer2.close();
+PrintWriter writer2 = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt')
+
+writer2.print('')
+
+writer2.close()
+
 //Xóa ngày tạo trong file
+PrintWriter writer = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt')
 
-PrintWriter writer = new PrintWriter("C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt");
-writer.print("");
-writer.close();
+writer.print('')
+
+writer.close()
+
 //Xóa ngày cập nhật trong file
-
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Chp Nhn Xa'))
 
 WebUI.waitForAlert(1)

@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AccountSystem01-02-03-04,Chrome 72.0.3626.121,,2019-03-25 09:57:36,2019-03-25 09:58:35,58.894s,PASSED
+,,,,,,
+Test Cases/AccountSystem/AccountSystem-01,Chrome 72.0.3626.121,,2019-03-25 09:57:37,2019-03-25 09:57:54,16.831s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-25 09:57:37,2019-03-25 09:57:41,4.258s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.121,,2019-03-25 09:57:41,2019-03-25 09:57:43,1.734s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.121,,2019-03-25 09:57:43,2019-03-25 09:57:43,0.226s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.121,,2019-03-25 09:57:43,2019-03-25 09:57:44,0.232s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.121,,2019-03-25 09:57:44,2019-03-25 09:57:44,0.134s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/a_H Thng Ti Khon""))",Chrome 72.0.3626.121,,2019-03-25 09:57:44,2019-03-25 09:57:45,1.289s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/button_To Ti Khon""))",Chrome 72.0.3626.121,,2019-03-25 09:57:45,2019-03-25 09:57:45,0.309s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:57:45,2019-03-25 09:57:46,1.070s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/span_--Chn quyn ti khon--""))",Chrome 72.0.3626.121,,2019-03-25 09:57:46,2019-03-25 09:57:47,0.116s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input_ng_select2-search__field""), ""Admin"")",Chrome 72.0.3626.121,,2019-03-25 09:57:47,2019-03-25 09:57:47,0.207s,PASSED
+"sendKeys(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input_ng_select2-search__field""), Keys.chord(ENTER))",Chrome 72.0.3626.121,,2019-03-25 09:57:47,2019-03-25 09:57:47,0.086s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:57:47,2019-03-25 09:57:48,1.014s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input_Tn ng Nhp_accNameCreate""), ""anhtest"")",Chrome 72.0.3626.121,,2019-03-25 09:57:48,2019-03-25 09:57:48,0.179s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:57:48,2019-03-25 09:57:49,1.019s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input_Mt Khu_accPassCreate""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.121,,2019-03-25 09:57:49,2019-03-25 09:57:49,0.154s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:57:49,2019-03-25 09:57:50,1.030s,PASSED
+CDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()),Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:50,0.060s,PASSED
+writer = null,Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:50,0.002s,PASSED
+writer2 = null,Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:50,0.000s,PASSED
+try,Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:50,0.076s,PASSED
+Finally,Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:50,0.027s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/button_To Mi""))",Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:50,0.121s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:57:50,2019-03-25 09:57:52,1.096s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/button_OK""))",Chrome 72.0.3626.121,,2019-03-25 09:57:52,2019-03-25 09:57:52,0.115s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/fieldSearch2""))",Chrome 72.0.3626.121,,2019-03-25 09:57:52,2019-03-25 09:57:52,0.637s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/input""), ""admin anhtest"")",Chrome 72.0.3626.121,,2019-03-25 09:57:52,2019-03-25 09:57:53,0.322s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/td_Admin""), ""Admin"")",Chrome 72.0.3626.121,,2019-03-25 09:57:53,2019-03-25 09:57:53,0.060s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/td_anhtest""), ""anhtest"")",Chrome 72.0.3626.121,,2019-03-25 09:57:53,2019-03-25 09:57:53,0.060s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-01/Page_ODTS System/td_1109 01032019""), CDATE)",Chrome 72.0.3626.121,,2019-03-25 09:57:53,2019-03-25 09:57:53,0.064s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-25 09:57:53,2019-03-25 09:57:54,0.710s,PASSED
+,,,,,,
+Test Cases/AccountSystem/AccountSystem-02,Chrome 72.0.3626.121,,2019-03-25 09:57:54,2019-03-25 09:58:08,14.040s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-25 09:57:54,2019-03-25 09:57:56,2.367s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.121,,2019-03-25 09:57:56,2019-03-25 09:57:58,1.805s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.121,,2019-03-25 09:57:58,2019-03-25 09:57:58,0.160s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.121,,2019-03-25 09:57:58,2019-03-25 09:57:58,0.126s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.121,,2019-03-25 09:57:58,2019-03-25 09:57:58,0.086s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/a_H Thng Ti Khon""))",Chrome 72.0.3626.121,,2019-03-25 09:57:58,2019-03-25 09:58:04,6.002s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/fieldSearch2""))",Chrome 72.0.3626.121,,2019-03-25 09:58:04,2019-03-25 09:58:05,0.631s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/input""), ""admin anhtest"")",Chrome 72.0.3626.121,,2019-03-25 09:58:05,2019-03-25 09:58:05,0.327s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/button_anhtest_btn btn-info fa""))",Chrome 72.0.3626.121,,2019-03-25 09:58:05,2019-03-25 09:58:06,0.114s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:06,2019-03-25 09:58:07,1.016s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/p_Admin""), ""Admin"")",Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.061s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/p_anhtest""), ""anhtest"")",Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.058s,PASSED
+CDATE = null,Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.001s,PASSED
+UDATE = null,Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.000s,PASSED
+br = null,Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.000s,PASSED
+try,Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.030s,PASSED
+Finally,Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/p_1118 01032019""), CDATE)",Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.059s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/p_1118 01032019_1""), UDATE)",Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.055s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-02/Page_ODTS System/button_ng""))",Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:07,0.105s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-25 09:58:07,2019-03-25 09:58:08,0.681s,PASSED
+,,,,,,
+Test Cases/AccountSystem/AccountSystem-03,Chrome 72.0.3626.121,,2019-03-25 09:58:08,2019-03-25 09:58:23,15.705s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-25 09:58:08,2019-03-25 09:58:10,2.430s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.121,,2019-03-25 09:58:10,2019-03-25 09:58:12,1.328s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.121,,2019-03-25 09:58:12,2019-03-25 09:58:12,0.178s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.121,,2019-03-25 09:58:12,2019-03-25 09:58:12,0.129s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.121,,2019-03-25 09:58:12,2019-03-25 09:58:12,0.091s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/a_H Thng Ti Khon""))",Chrome 72.0.3626.121,,2019-03-25 09:58:12,2019-03-25 09:58:16,4.199s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/fieldSearch2""))",Chrome 72.0.3626.121,,2019-03-25 09:58:16,2019-03-25 09:58:17,0.610s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/input""), ""admin anhtest"")",Chrome 72.0.3626.121,,2019-03-25 09:58:17,2019-03-25 09:58:17,0.292s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_anhtest_btn btn-warning""))",Chrome 72.0.3626.121,,2019-03-25 09:58:17,2019-03-25 09:58:17,0.102s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:17,2019-03-25 09:58:18,1.015s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/input_Tn ng Nhp_accNameEdit""), ""anhtest22"")",Chrome 72.0.3626.121,,2019-03-25 09:58:18,2019-03-25 09:58:18,0.184s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:18,2019-03-25 09:58:19,1.018s,PASSED
+UDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()),Chrome 72.0.3626.121,,2019-03-25 09:58:19,2019-03-25 09:58:19,0.001s,PASSED
+writer = null,Chrome 72.0.3626.121,,2019-03-25 09:58:19,2019-03-25 09:58:19,0.000s,PASSED
+try,Chrome 72.0.3626.121,,2019-03-25 09:58:19,2019-03-25 09:58:19,0.002s,PASSED
+Finally,Chrome 72.0.3626.121,,2019-03-25 09:58:19,2019-03-25 09:58:19,0.007s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_Cp Nht""))",Chrome 72.0.3626.121,,2019-03-25 09:58:19,2019-03-25 09:58:19,0.114s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:19,2019-03-25 09:58:21,1.044s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_OK""))",Chrome 72.0.3626.121,,2019-03-25 09:58:21,2019-03-25 09:58:21,0.106s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_anhtest22_btn btn-info""))",Chrome 72.0.3626.121,,2019-03-25 09:58:21,2019-03-25 09:58:21,0.616s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:21,2019-03-25 09:58:22,1.017s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_Admin""), ""Admin"")",Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.058s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_anhtest22""), ""anhtest22"")",Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.061s,PASSED
+CDATE = null,Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.000s,PASSED
+br = null,Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.000s,PASSED
+try,Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.003s,PASSED
+Finally,Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_1118 01032019""), CDATE)",Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:22,0.054s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_1124 01032019""), UDATE)",Chrome 72.0.3626.121,,2019-03-25 09:58:22,2019-03-25 09:58:23,0.057s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_ng""))",Chrome 72.0.3626.121,,2019-03-25 09:58:23,2019-03-25 09:58:23,0.098s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-25 09:58:23,2019-03-25 09:58:23,0.702s,PASSED
+,,,,,,
+Test Cases/AccountSystem/AccountSystem-04,Chrome 72.0.3626.121,,2019-03-25 09:58:23,2019-03-25 09:58:35,11.870s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-25 09:58:24,2019-03-25 09:58:26,2.380s,PASSED
+"navigateToUrl(""http://helpdesk.wisky.vn/"")",Chrome 72.0.3626.121,,2019-03-25 09:58:26,2019-03-25 09:58:29,2.664s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 72.0.3626.121,,2019-03-25 09:58:29,2019-03-25 09:58:29,0.157s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 72.0.3626.121,,2019-03-25 09:58:29,2019-03-25 09:58:29,0.109s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/button_ng Nhp""))",Chrome 72.0.3626.121,,2019-03-25 09:58:29,2019-03-25 09:58:29,0.100s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/a_H Thng Ti Khon""))",Chrome 72.0.3626.121,,2019-03-25 09:58:29,2019-03-25 09:58:30,1.046s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/fieldSearch2""))",Chrome 72.0.3626.121,,2019-03-25 09:58:30,2019-03-25 09:58:31,0.656s,PASSED
+"setText(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/input""), ""admin anhtest22"")",Chrome 72.0.3626.121,,2019-03-25 09:58:31,2019-03-25 09:58:31,0.283s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/button_anhtest22_btn btn-dange""))",Chrome 72.0.3626.121,,2019-03-25 09:58:31,2019-03-25 09:58:31,0.112s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:31,2019-03-25 09:58:32,1.021s,PASSED
+writer2 = new java.io.PrintWriter(C:\Users\pc\HelpdeskAutomation\creDateAccountSystem.txt),Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.009s,PASSED
+"writer2.print("""")",Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.006s,PASSED
+writer2.close(),Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.002s,PASSED
+writer = new java.io.PrintWriter(C:\Users\pc\HelpdeskAutomation\upDateAccountSystem.txt),Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.003s,PASSED
+"writer.print("""")",Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.001s,PASSED
+writer.close(),Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.001s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/button_Chp Nhn Xa""))",Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:32,0.101s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:32,2019-03-25 09:58:33,1.027s,PASSED
+"click(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/button_OK""))",Chrome 72.0.3626.121,,2019-03-25 09:58:33,2019-03-25 09:58:33,0.108s,PASSED
+waitForAlert(1),Chrome 72.0.3626.121,,2019-03-25 09:58:33,2019-03-25 09:58:34,1.011s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/AccountSystem/AccountSystem-04/Page_ODTS System/td_Khng c d liu ph hp""))",Chrome 72.0.3626.121,,2019-03-25 09:58:34,2019-03-25 09:58:34,0.075s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-25 09:58:34,2019-03-25 09:58:35,0.714s,PASSED

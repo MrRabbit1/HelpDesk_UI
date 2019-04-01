@@ -1,10 +1,9 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Company/Company-03/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -28,28 +27,36 @@ WebUI.verifyElementText(findTestObject('Company/Company-03/Page_ODTS System/anht
 
 WebUI.verifyElementText(findTestObject('Company/Company-03/Page_ODTS System/p_hihi'), 'hihi')
 
-String CDATE = null, UDATE = null;
-BufferedReader br = null;
+String CDATE = null
+
+String UDATE = null
+
+BufferedReader br = null
+
 try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateCompany.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-		
-			br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\upDateCompany.txt"))
-		    sCurrentLine;
-				while ((sCurrentLine = br.readLine()) != null) {
-					UDATE = sCurrentLine;
-				}
-			//Lấy giá trị ngày cập nhật từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
-	
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateCompany.txt'))
+
+    String sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    }
+    
+    //Lấy giá trị ngày tạo từ file
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\upDateCompany.txt'))
+
+    sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        UDATE = sCurrentLine
+    } //Lấy giá trị ngày cập nhật từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
+
 WebUI.verifyElementText(findTestObject('Company/Company-03/Page_ODTS System/p_1031 21022019'), CDATE)
 
 WebUI.verifyElementText(findTestObject('Company/Company-03/Page_ODTS System/p_1031 21022019_1'), UDATE)

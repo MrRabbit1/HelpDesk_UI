@@ -1,14 +1,12 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
-import org.junit.After
-
+import java.text.SimpleDateFormat as SimpleDateFormat
+import org.junit.After as After
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.Keys as Keys
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Company/Company-12/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -34,8 +32,8 @@ WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/button_hihi_btn 
 
 WebUI.waitForAlert(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Company/Company-12/Page_ODTS System/select_--Chn loi thit b--Access PointCameraPos My In BillMn HnhRouterFingerThit B in Lnhn Trong NhSwitch')
-	, "4", true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Company/Company-12/Page_ODTS System/select_--Chn loi thit b--Access PointCameraPos My In BillMn HnhRouterFingerThit B in Lnhn Trong NhSwitch'), 
+    '4', true)
 
 WebUI.waitForAlert(1)
 
@@ -96,8 +94,8 @@ WebUI.setText(findTestObject('Company/Company-12/Page_ODTS System/input_Thng Tin
 WebUI.waitForAlert(1)
 
 def UDATE = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 
+//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/button_Cp Nht'))
 
 WebUI.waitForAlert(1)

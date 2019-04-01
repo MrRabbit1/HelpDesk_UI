@@ -16,12 +16,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('TypeOfService/Type of service-04/Page_ODTS System/input_ODTS_username'), 'admin01')
 
-WebUI.setEncryptedText(findTestObject('TypeOfService/Type of service-04/Page_ODTS System/input_ODTS_password'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('TypeOfService/Type of service-04/Page_ODTS System/input_ODTS_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('TypeOfService/Type of service-04/Page_ODTS System/button_ng Nhp'))
 
@@ -43,15 +42,19 @@ WebUI.click(findTestObject('TypeOfService/Type of service-04/Page_ODTS System/bu
 
 WebUI.verifyElementVisible(findTestObject('TypeOfService/Type of service-04/Page_ODTS System/td_Khng c d liu ph hp'))
 
-PrintWriter writer2 = new PrintWriter("C:\\Users\\pc\\HelpdeskAutomation\\creDateTypeOfService.txt");
-writer2.print("");
-writer2.close();
+PrintWriter writer2 = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\creDateTypeOfService.txt')
+
+writer2.print('')
+
+writer2.close()
+
 //Xóa ngày tạo
+PrintWriter writer = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\upDateTypeOfService.txt')
 
-PrintWriter writer = new PrintWriter("C:\\Users\\pc\\HelpdeskAutomation\\upDateTypeOfService.txt");
-writer.print("");
-writer.close();
+writer.print('')
+
+writer.close()
+
 //Xóa ngày cập nhật
-
 WebUI.closeBrowser()
 

@@ -1,12 +1,10 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
+import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -51,24 +49,35 @@ WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-01/Page_
 WebUI.waitForAlert(1)
 
 def CDATE = new SimpleDateFormat('HH:mm dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày tạo theo format HH:mm dd/MM/yyyy
 
-Writer writer = null, writer2 = null
+//Lấy giá trị ngày tạo theo format HH:mm dd/MM/yyyy
+Writer writer = null
+
+Writer writer2 = null
 
 try {
-	writer = new BufferedWriter(new OutputStreamWriter(
-		  new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt"), "utf-8"));
-	writer.write(CDATE);
-	//Lưu giá trị ngày tạo vào file
-	
-	writer2 = new BufferedWriter(new OutputStreamWriter(
-		new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt"), "utf-8"));
-	writer2.write(CDATE);
-	//Lưu giá trị ngày cập nhật là ngày tạo vào file
-} catch (IOException ex) {
-	// Report
-} finally {
-   try {writer.close();writer2.close()} catch (Exception ex) {}
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt'), 
+    'utf-8'))
+
+    writer.write(CDATE)
+
+    //Lưu giá trị ngày tạo vào file
+    writer2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt'), 
+    'utf-8'))
+
+    writer2.write(CDATE) //Lưu giá trị ngày cập nhật là ngày tạo vào file
+}
+catch (IOException ex) {
+    // Report
+} 
+finally { 
+    try {
+        writer.close()
+
+        writer2.close()
+    }
+    catch (Exception ex) {
+    } 
 }
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Mi'))

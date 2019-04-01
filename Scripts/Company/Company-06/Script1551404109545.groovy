@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Company/Company-06/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -38,8 +38,7 @@ WebUI.setText(findTestObject('Company/Company-06/Page_ODTS System/input_ng_selec
 
 WebUI.waitForAlert(1)
 
-WebUI.sendKeys(findTestObject('Company/Company-06/Page_ODTS System/input_ng_select2-search__field'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Company/Company-06/Page_ODTS System/input_ng_select2-search__field'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForAlert(1)
 

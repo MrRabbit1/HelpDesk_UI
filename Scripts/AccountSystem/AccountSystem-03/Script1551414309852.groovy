@@ -1,12 +1,10 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
+import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -31,19 +29,26 @@ WebUI.setText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/P
 WebUI.waitForAlert(1)
 
 def UDATE = new SimpleDateFormat('HH:mm dd/MM/yyyy').format(Calendar.getInstance().getTime())
-//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 
-Writer writer = null;
+//Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
+Writer writer = null
 
 try {
-	writer = new BufferedWriter(new OutputStreamWriter(
-		new FileOutputStream("C:\\Users\\pc\\HelpdeskAutomation\\upDateAccountSystem.txt"), "utf-8"));
-	writer.write(UDATE);
-	//Lưu giá trị ngày cập nhật vào file
-} catch (IOException ex) {
-	// Report
-} finally {
-   try {writer.close();} catch (Exception ex) {/*ignore*/}
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateAccountSystem.txt'), 
+    'utf-8'))
+
+    writer.write(UDATE) //Lưu giá trị ngày cập nhật vào file
+}
+catch (IOException ex) {
+    // Report
+} 
+finally { 
+    try {
+        writer.close()
+    }
+    catch (Exception ex) {
+        /*ignore*/ 
+    } 
 }
 
 WebUI.click(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_Cp Nht'))
@@ -58,26 +63,33 @@ WebUI.waitForAlert(1)
 
 WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_Admin'), 'Admin')
 
-WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_anhtest22'), 'anhtest22')
+WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_anhtest22'), 
+    'anhtest22')
 
-String CDATE = null;
-BufferedReader br = null;
+String CDATE = null
+
+BufferedReader br = null
+
 try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateAccountSystem.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateAccountSystem.txt'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_1118 01032019'), CDATE)
+    String sCurrentLine
 
-WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_1124 01032019'), UDATE)
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    } //Lấy giá trị ngày tạo từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
+
+WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_1118 01032019'), 
+    CDATE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/p_1124 01032019'), 
+    UDATE)
 
 WebUI.click(findTestObject('Object Repository/AccountSystem/AccountSystem-03/Page_ODTS System/button_ng'))
 

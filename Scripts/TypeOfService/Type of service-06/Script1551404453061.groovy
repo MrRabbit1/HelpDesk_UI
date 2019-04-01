@@ -16,12 +16,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/input_ODTS_username'), 'admin01')
 
-WebUI.setEncryptedText(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/input_ODTS_password'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/input_ODTS_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/button_ng Nhp'))
 
@@ -43,27 +42,35 @@ WebUI.verifyElementText(findTestObject('TypeOfService/Type of service-06/Page_OD
 
 WebUI.verifyElementText(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/p_haha'), 'haha')
 
-String CDATE = null, UDATE = null;
-BufferedReader br = null;
+String CDATE = null
+
+String UDATE = null
+
+BufferedReader br = null
+
 try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateService.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-			
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\upDateService.txt"))
-		sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				UDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày cập nhật từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateService.txt'))
+
+    String sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    }
+    
+    //Lấy giá trị ngày tạo từ file
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\upDateService.txt'))
+
+    sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        UDATE = sCurrentLine
+    } //Lấy giá trị ngày cập nhật từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
 
 WebUI.verifyElementText(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/p_1417 25022019'), CDATE)
 

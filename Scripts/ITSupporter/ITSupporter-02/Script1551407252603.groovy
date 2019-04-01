@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -41,7 +41,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporte
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest'), 'anhtest')
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anh.nguyenwisky.vn'), 'anh.nguyen@wisky.vn')
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anh.nguyenwisky.vn'), 
+    'anh.nguyen@wisky.vn')
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_Q12'), 'Q12')
 
@@ -65,31 +66,41 @@ WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporte
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest_1'), 'anhtest')
 
-String CDATE = null, UDATE = null;
-BufferedReader br = null;
+String CDATE = null
+
+String UDATE = null
+
+BufferedReader br = null
+
 try {
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt"))
-		String sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				CDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày tạo từ file
-			
-		br = new BufferedReader(new FileReader("C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt"))
-		sCurrentLine;
-			while ((sCurrentLine = br.readLine()) != null) {
-				UDATE = sCurrentLine;
-			}
-		//Lấy giá trị ngày cập nhật từ file
-	} catch (IOException e) {
-	
-	} finally{
-		br.close();
-	}
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019'), CDATE)
+    String sCurrentLine
 
-WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019_1'), UDATE)
+    while ((sCurrentLine = br.readLine()) != null) {
+        CDATE = sCurrentLine
+    }
+    
+    //Lấy giá trị ngày tạo từ file
+    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt'))
+
+    sCurrentLine
+
+    while ((sCurrentLine = br.readLine()) != null) {
+        UDATE = sCurrentLine
+    } //Lấy giá trị ngày cập nhật từ file
+}
+catch (IOException e) {
+} 
+finally { 
+    br.close()
+}
+
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019'), 
+    CDATE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019_1'), 
+    UDATE)
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng'))
 

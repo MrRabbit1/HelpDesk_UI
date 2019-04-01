@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ITSupporter01-02-03-04" time="87" tests="4" failures="0" errors="0">
+   <testsuite name="ITSupporter01-02-03-04" tests="4" failures="0" errors="0" time="87" timestamp="2019-03-25 09:34:14" hostname="Ninja - AnhNVSE63446" id="Test Suites/ITSupporter01-02-03-04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pc\\HelpdeskAutomation\\Reports\\ITSupporter01-02-03-04\\20190325_093407"/>
+         <property name="logFiles" value="C:\\Users\\pc\\HelpdeskAutomation\\Reports\\ITSupporter01-02-03-04\\20190325_093407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="sessionId" value="87761f508b978e0f4c2401069ef89dc6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ITSupporter/ITSupporter-01" classname="Test Cases/ITSupporter/ITSupporter-01" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:34:15 - [TEST_CASE][PASSED] - Test Cases/ITSupporter/ITSupporter-01: Test Cases/ITSupporter/ITSupporter-01
+
+2019-03-25 09:34:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:34:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:34:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-25 09:34:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:34:20 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:34:21 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:34:22 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:34:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:34:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/a_Nhn Vin K Thut")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:34:25 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:26 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Nhn Vin")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Nhn Vin' is clicked on
+
+2019-03-25 09:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Nhn Vin' is clicked on
+
+2019-03-25 09:34:26 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:27 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Tn ng Nhp_userNameC"), "anhtest"): Text 'anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Tn ng Nhp_userNameC'
+
+2019-03-25 09:34:27 - [MESSAGE][PASSED] - Text 'anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Tn ng Nhp_userNameC'
+
+2019-03-25 09:34:27 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:28 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Mt Khu_passC"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Mt Khu_passC'
+
+2019-03-25 09:34:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Mt Khu_passC'
+
+2019-03-25 09:34:29 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:30 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_H V Tn_nameC"), "nva"): Text 'nva' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_H V Tn_nameC'
+
+2019-03-25 09:34:30 - [MESSAGE][PASSED] - Text 'nva' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_H V Tn_nameC'
+
+2019-03-25 09:34:30 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:31 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_S in Thoi_phoneC"), "1234567890"): Text '1234567890' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_S in Thoi_phoneC'
+
+2019-03-25 09:34:31 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_S in Thoi_phoneC'
+
+2019-03-25 09:34:31 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:32 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Email_emailC"), "anh.nguyen@wisky.vn"): Text 'anh.nguyen@wisky.vn' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Email_emailC'
+
+2019-03-25 09:34:32 - [MESSAGE][PASSED] - Text 'anh.nguyen@wisky.vn' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_Email_emailC'
+
+2019-03-25 09:34:32 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:33 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_a Ch Thng Tr_addressC"), "Q12"): Text 'Q12' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_a Ch Thng Tr_addressC'
+
+2019-03-25 09:34:33 - [MESSAGE][PASSED] - Text 'Q12' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input_a Ch Thng Tr_addressC'
+
+2019-03-25 09:34:33 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:34 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:34 - [TEST_STEP][PASSED] - CDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer2 = null: null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - try: null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\HelpdeskAutomation\creDateITSupporter.txt), utf-8)): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer.write(CDATE): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer2 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\HelpdeskAutomation\upDateITSupporter.txt), utf-8)): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer2.write(CDATE): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - try: null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - writer2.close(): null
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Mi")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Mi' is clicked on
+
+2019-03-25 09:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_To Mi' is clicked on
+
+2019-03-25 09:34:35 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:36 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_OK")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:34:36 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:37 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/fieldSearch")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input"), "nva anhtest"): Text 'nva anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input'
+
+2019-03-25 09:34:37 - [MESSAGE][PASSED] - Text 'nva anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input'
+
+2019-03-25 09:34:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_nva"), "nva"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_nva' are matched.
+
+2019-03-25 09:34:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_nva' are matched.
+
+2019-03-25 09:34:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_anhtest"), "anhtest"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_anhtest' are matched.
+
+2019-03-25 09:34:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_anhtest' are matched.
+
+2019-03-25 09:34:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_1234567890"), "1234567890"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_1234567890' are matched.
+
+2019-03-25 09:34:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_1234567890' are matched.
+
+2019-03-25 09:34:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_Online"), "Online"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_Online' are matched.
+
+2019-03-25 09:34:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/td_Online' are matched.
+
+2019-03-25 09:34:38 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:39 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/a_H Thng Ti Khon")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/fieldSearch2")): Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:34:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input2"), "itsupporter anhtest"): Text 'itsupporter anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input2'
+
+2019-03-25 09:34:40 - [MESSAGE][PASSED] - Text 'itsupporter anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/input2'
+
+2019-03-25 09:34:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/role"), "ITSupporter"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/role' are matched.
+
+2019-03-25 09:34:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/role' are matched.
+
+2019-03-25 09:34:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/name"), "anhtest"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/name' are matched.
+
+2019-03-25 09:34:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/name' are matched.
+
+2019-03-25 09:34:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/creDate"), CDATE): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/creDate' are matched.
+
+2019-03-25 09:34:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-01/Page_ODTS System/creDate' are matched.
+
+2019-03-25 09:34:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:34:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ITSupporter/ITSupporter-02" classname="Test Cases/ITSupporter/ITSupporter-02" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:34:41 - [TEST_CASE][PASSED] - Test Cases/ITSupporter/ITSupporter-02: Test Cases/ITSupporter/ITSupporter-02
+
+2019-03-25 09:34:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:34:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:34:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:34:44 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:34:46 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:34:46 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:34:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:34:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/a_Nhn Vin K Thut")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/fieldSearch")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input"), "nva anhtest"): Text 'nva anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input'
+
+2019-03-25 09:34:49 - [MESSAGE][PASSED] - Text 'nva anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input'
+
+2019-03-25 09:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_Online_btn btn-info fa")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_Online_btn btn-info fa' is clicked on
+
+2019-03-25 09:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_Online_btn btn-info fa' is clicked on
+
+2019-03-25 09:34:49 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:50 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_nva"), "nva"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_nva' are matched.
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_nva' are matched.
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_1234567890"), "1234567890"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_1234567890' are matched.
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_1234567890' are matched.
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest"), "anhtest"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest' are matched.
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest' are matched.
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anh.nguyenwisky.vn"), "anh.nguyen@wisky.vn"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anh.nguyenwisky.vn' are matched.
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anh.nguyenwisky.vn' are matched.
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_Q12"), "Q12"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_Q12' are matched.
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_Q12' are matched.
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/kinhnghiem"), ""): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/kinhnghiem' are matched.
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/kinhnghiem' are matched.
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:34:50 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:51 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/a_H Thng Ti Khon")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/fieldSearch2")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:34:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input"), "itsupporter anhtest"): Text 'itsupporter anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input'
+
+2019-03-25 09:34:53 - [MESSAGE][PASSED] - Text 'itsupporter anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/input'
+
+2019-03-25 09:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_anhtest_btn btn-info fa")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_anhtest_btn btn-info fa' is clicked on
+
+2019-03-25 09:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_anhtest_btn btn-info fa' is clicked on
+
+2019-03-25 09:34:53 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:34:54 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_ITSupporter"), "ITSupporter"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_ITSupporter' are matched.
+
+2019-03-25 09:34:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_ITSupporter' are matched.
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest_1"), "anhtest"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest_1' are matched.
+
+2019-03-25 09:34:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_anhtest_1' are matched.
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - CDATE = null: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - UDATE = null: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - br = null: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - try: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - br = new java.io.BufferedReader(new java.io.FileReader(C:\Users\pc\HelpdeskAutomation\creDateITSupporter.txt)): null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - sCurrentLine = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - while (sCurrentLine = br.readLine() != null): null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - CDATE = sCurrentLine: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - br = new java.io.BufferedReader(new java.io.FileReader(C:\Users\pc\HelpdeskAutomation\upDateITSupporter.txt)): null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - sCurrentLine: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - while (sCurrentLine = br.readLine() != null): null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - UDATE = sCurrentLine: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - br.close(): null
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019"), CDATE): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019' are matched.
+
+2019-03-25 09:34:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019' are matched.
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019_1"), UDATE): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019_1' are matched.
+
+2019-03-25 09:34:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/p_0923 01032019_1' are matched.
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng")): Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-02/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:34:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:34:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ITSupporter/ITSupporter-03" classname="Test Cases/ITSupporter/ITSupporter-03" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:34:55 - [TEST_CASE][PASSED] - Test Cases/ITSupporter/ITSupporter-03: Test Cases/ITSupporter/ITSupporter-03
+
+2019-03-25 09:34:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:34:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:34:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:34:57 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:34:59 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:34:59 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:34:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:34:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/a_Nhn Vin K Thut")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/fieldSearch")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:35:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input"), "nva anhtest"): Text 'nva anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input'
+
+2019-03-25 09:35:02 - [MESSAGE][PASSED] - Text 'nva anhtest' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input'
+
+2019-03-25 09:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Online_btn btn-warning")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Online_btn btn-warning' is clicked on
+
+2019-03-25 09:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Online_btn btn-warning' is clicked on
+
+2019-03-25 09:35:02 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:03 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Tn ng Nhp_userNameE"), "anhtest22"): Text 'anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Tn ng Nhp_userNameE'
+
+2019-03-25 09:35:04 - [MESSAGE][PASSED] - Text 'anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Tn ng Nhp_userNameE'
+
+2019-03-25 09:35:04 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:05 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_H V Tn_nameE"), "nva22"): Text 'nva22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_H V Tn_nameE'
+
+2019-03-25 09:35:05 - [MESSAGE][PASSED] - Text 'nva22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_H V Tn_nameE'
+
+2019-03-25 09:35:05 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:06 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_S in Thoi_phoneE"), "1234567822"): Text '1234567822' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_S in Thoi_phoneE'
+
+2019-03-25 09:35:06 - [MESSAGE][PASSED] - Text '1234567822' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_S in Thoi_phoneE'
+
+2019-03-25 09:35:06 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:07 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Email_emailE"), "anh.nguyen@wisky.vn22"): Text 'anh.nguyen@wisky.vn22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Email_emailE'
+
+2019-03-25 09:35:07 - [MESSAGE][PASSED] - Text 'anh.nguyen@wisky.vn22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Email_emailE'
+
+2019-03-25 09:35:07 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:08 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_a Ch Thng Tr_addressE"), "Q1222"): Text 'Q1222' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_a Ch Thng Tr_addressE'
+
+2019-03-25 09:35:08 - [MESSAGE][PASSED] - Text 'Q1222' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_a Ch Thng Tr_addressE'
+
+2019-03-25 09:35:08 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:10 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim' is clicked on
+
+2019-03-25 09:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim' is clicked on
+
+2019-03-25 09:35:10 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:11 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI"), "2", true): All options with value '2' are selected in object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'  using regular expression
+
+2019-03-25 09:35:11 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'  using regular expression
+
+2019-03-25 09:35:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp"), "22"): Text '22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'
+
+2019-03-25 09:35:11 - [MESSAGE][PASSED] - Text '22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'
+
+2019-03-25 09:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu' is clicked on
+
+2019-03-25 09:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu' is clicked on
+
+2019-03-25 09:35:11 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:12 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:12 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:13 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim' is clicked on
+
+2019-03-25 09:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim' is clicked on
+
+2019-03-25 09:35:14 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:15 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI"), "3", true): All options with value '3' are selected in object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'  using regular expression
+
+2019-03-25 09:35:15 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'  using regular expression
+
+2019-03-25 09:35:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp"), "11"): Text '11' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'
+
+2019-03-25 09:35:15 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'
+
+2019-03-25 09:35:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu' is clicked on
+
+2019-03-25 09:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu' is clicked on
+
+2019-03-25 09:35:15 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:16 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:16 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:17 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim' is clicked on
+
+2019-03-25 09:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Ty Chnh Kinh Nghim' is clicked on
+
+2019-03-25 09:35:17 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:18 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI"), "15", true): All options with value '15' are selected in object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'  using regular expression
+
+2019-03-25 09:35:19 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'  using regular expression
+
+2019-03-25 09:35:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp"), "33"): Text '33' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'
+
+2019-03-25 09:35:19 - [MESSAGE][PASSED] - Text '33' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'
+
+2019-03-25 09:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu' is clicked on
+
+2019-03-25 09:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Lu' is clicked on
+
+2019-03-25 09:35:19 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:20 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:20 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:21 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - UDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()): null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - writer = null: null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - try: null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - writer = new java.io.BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(C:\Users\pc\HelpdeskAutomation\upDateITSupporter.txt), utf-8)): null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - writer.write(UDATE): null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - try: null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Cp Nht")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Cp Nht' is clicked on
+
+2019-03-25 09:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Cp Nht' is clicked on
+
+2019-03-25 09:35:21 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:22 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Online_btn btn-info fa")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Online_btn btn-info fa' is clicked on
+
+2019-03-25 09:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_Online_btn btn-info fa' is clicked on
+
+2019-03-25 09:35:23 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:24 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_nva22"), "nva22"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_nva22' are matched.
+
+2019-03-25 09:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_nva22' are matched.
+
+2019-03-25 09:35:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_1234567822"), "1234567822"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_1234567822' are matched.
+
+2019-03-25 09:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_1234567822' are matched.
+
+2019-03-25 09:35:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22"), "anhtest22"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22' are matched.
+
+2019-03-25 09:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22' are matched.
+
+2019-03-25 09:35:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anh.nguyenwisky.vn22"), "anh.nguyen@wisky.vn22"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anh.nguyenwisky.vn22' are matched.
+
+2019-03-25 09:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anh.nguyenwisky.vn22' are matched.
+
+2019-03-25 09:35:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_Q1222"), "Q1222"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_Q1222' are matched.
+
+2019-03-25 09:35:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_Q1222' are matched.
+
+2019-03-25 09:35:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng"), "Camera, 22 tháng | Pos, 11 tháng | Email, 33 tháng |"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng' are matched.
+
+2019-03-25 09:35:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng' are matched.
+
+2019-03-25 09:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:35:25 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:26 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/a_H Thng Ti Khon")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/fieldSearch2")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:35:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input"), "itsupporter anhtest22"): Text 'itsupporter anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input'
+
+2019-03-25 09:35:27 - [MESSAGE][PASSED] - Text 'itsupporter anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input'
+
+2019-03-25 09:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_anhtest22_btn btn-info")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_anhtest22_btn btn-info' is clicked on
+
+2019-03-25 09:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_anhtest22_btn btn-info' is clicked on
+
+2019-03-25 09:35:27 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:28 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_ITSupporter"), "ITSupporter"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_ITSupporter' are matched.
+
+2019-03-25 09:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_ITSupporter' are matched.
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22_1"), "anhtest22"): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22_1' are matched.
+
+2019-03-25 09:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_anhtest22_1' are matched.
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - CDATE = null: null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - br = null: null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - try: null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - br = new java.io.BufferedReader(new java.io.FileReader(C:\Users\pc\HelpdeskAutomation\creDateITSupporter.txt)): null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - sCurrentLine = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - while (sCurrentLine = br.readLine() != null): null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - CDATE = sCurrentLine: null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - br.close(): null
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0923 01032019"), CDATE): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0923 01032019' are matched.
+
+2019-03-25 09:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0923 01032019' are matched.
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0943 01032019"), UDATE): Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0943 01032019' are matched.
+
+2019-03-25 09:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_0943 01032019' are matched.
+
+2019-03-25 09:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng")): Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng' is clicked on
+
+2019-03-25 09:35:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:35:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ITSupporter/ITSupporter-04" classname="Test Cases/ITSupporter/ITSupporter-04" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:35:29 - [TEST_CASE][PASSED] - Test Cases/ITSupporter/ITSupporter-04: Test Cases/ITSupporter/ITSupporter-04
+
+2019-03-25 09:35:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:35:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:35:32 - [TEST_STEP][PASSED] - navigateToUrl("http://helpdesk.wisky.vn/"): Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:35:34 - [MESSAGE][PASSED] - Navigate to 'http://helpdesk.wisky.vn/' successfully
+
+2019-03-25 09:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_username"), "admin01"): Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:35:34 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_username'
+
+2019-03-25 09:35:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:35:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input_ODTS_password'
+
+2019-03-25 09:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_ng Nhp")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_ng Nhp' is clicked on
+
+2019-03-25 09:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/a_Nhn Vin K Thut")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/a_Nhn Vin K Thut' is clicked on
+
+2019-03-25 09:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/fieldSearch")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/fieldSearch' is clicked on
+
+2019-03-25 09:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input"), "nva22 anhtest22"): Text 'nva22 anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input'
+
+2019-03-25 09:35:37 - [MESSAGE][PASSED] - Text 'nva22 anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input'
+
+2019-03-25 09:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Online_btn btn-danger f")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Online_btn btn-danger f' is clicked on
+
+2019-03-25 09:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Online_btn btn-danger f' is clicked on
+
+2019-03-25 09:35:37 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:38 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - writer2 = new java.io.PrintWriter(C:\Users\pc\HelpdeskAutomation\creDateITSupporter.txt): null
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - writer2.print(""): null
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - writer2.close(): null
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - writer = new java.io.PrintWriter(C:\Users\pc\HelpdeskAutomation\upDateITSupporter.txt): null
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - writer.print(""): null
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - writer.close(): null
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Chp Nhn Xa")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-03-25 09:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_Chp Nhn Xa' is clicked on
+
+2019-03-25 09:35:38 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-03-25 09:35:39 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-03-25 09:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_OK")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/button_OK' is clicked on
+
+2019-03-25 09:35:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/td_Khng c d liu ph hp")): Object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-03-25 09:35:39 - [MESSAGE][PASSED] - Object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-03-25 09:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/a_H Thng Ti Khon")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/a_H Thng Ti Khon' is clicked on
+
+2019-03-25 09:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/fieldSearch2")): Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/fieldSearch2' is clicked on
+
+2019-03-25 09:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input"), "itsupporter anhtest22"): Text 'itsupporter anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input'
+
+2019-03-25 09:35:41 - [MESSAGE][PASSED] - Text 'itsupporter anhtest22' is set on object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/input'
+
+2019-03-25 09:35:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/td_Khng c d liu ph hp")): Object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-03-25 09:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/ITSupporter/ITSupporter-04/Page_ODTS System/td_Khng c d liu ph hp' is visible
+
+2019-03-25 09:35:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:35:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-25 09:34:14 - [TEST_SUITE][PASSED] - ITSupporter01-02-03-04: Test Cases/ITSupporter/ITSupporter-04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

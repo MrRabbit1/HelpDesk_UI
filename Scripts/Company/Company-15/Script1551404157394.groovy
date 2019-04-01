@@ -5,7 +5,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.wisky.vn/')
+WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
 
 WebUI.setText(findTestObject('Company/Company-15/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -30,16 +30,20 @@ WebUI.waitForAlert(2)
 WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_Passio'), 'Passio')
 
 def EXPIREDDATE = WebUI.getText(findTestObject('Company/Company-15/Page_ODTS System/p_25042019'))
-//Lấy giá trị ngày hết hạn hợp đồng
 
+//Lấy giá trị ngày hết hạn hợp đồng
 def DATE = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().getTime())
+
 //Lấy giá trị ngày hôm nay
 def DATE1 = new SimpleDateFormat('dd/MM/yyyy').parse(DATE)
-def EXPIREDDATE1 = new SimpleDateFormat('dd/MM/yyyy').parse(EXPIREDDATE)
-def DATE2 = new SimpleDateFormat('yyyy/MM/dd').format(DATE1)
-def EXPIREDDATE2 = new SimpleDateFormat('yyyy/MM/dd').format(EXPIREDDATE1)
-//Chuyển đổi format ngày để so sánh
 
+def EXPIREDDATE1 = new SimpleDateFormat('dd/MM/yyyy').parse(EXPIREDDATE)
+
+def DATE2 = new SimpleDateFormat('yyyy/MM/dd').format(DATE1)
+
+def EXPIREDDATE2 = new SimpleDateFormat('yyyy/MM/dd').format(EXPIREDDATE1)
+
+//Chuyển đổi format ngày để so sánh
 if (EXPIREDDATE2.compareTo(DATE2) >= 0) //So sánh ngày hết hạn hợp đồng và ngày hôm nay
 {
     WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_Cn Hn Hp ng'), 'Còn Hạn Hợp Đồng')
@@ -58,24 +62,23 @@ WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/td_W
 WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_anhtest'), 'anhtest')
 
 def date1 = new SimpleDateFormat('dd/MM/yyyy').parse(EXPIREDDATE)
+
 //Chuyển đổi ngày hết hạn hợp đồng từ kiểu String thành kiểu Date
-
 def date2 = new SimpleDateFormat('dd/MM/yyyy').parse(DATE)
+
 //Chuyển đổi ngày hôm nay từ kiểu String thành kiểu Date
-
 def between = ChronoUnit.DAYS.between(date2.toInstant(), date1.toInstant())
-//Lấy khoảng cách giữa 2 ngày
 
+//Lấy khoảng cách giữa 2 ngày
 if (between > 0) {
-    WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_Cn 62 ngy'), ('Còn ' + 
-        between) + ' ngày')
+    WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_Cn 62 ngy'), ('Còn ' + between) + ' ngày')
 } else if (between == 0) {
     WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_Cn 62 ngy'), 'Chỉ còn trong hôm nay')
 } else if (between < 0) {
     WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_Cn 62 ngy'), 'Hết hạn')
 }
-//So sánh giá trị
 
+//So sánh giá trị
 WebUI.verifyElementText(findTestObject('Company/Company-15/Page_ODTS System/p_200 VN'), '200 VNĐ')
 
 String CDATE = null
@@ -89,8 +92,7 @@ try {
 
     while ((sCurrentLine = br.readLine()) != null) {
         CDATE = sCurrentLine
-    }
-	//Lấy giá trị ngày tạo từ file
+    } //Lấy giá trị ngày tạo từ file
 }
 catch (IOException e) {
 } 
