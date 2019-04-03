@@ -1,10 +1,11 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -68,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_OD
 WebUI.waitForAlert(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/select_CAMERAPOSSOFTWAREEMAILI'), 
-    '3', true)
+    '14', true)
 
 WebUI.setText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/input_Thi Gian lm Vic_monthExp'), 
     '11')
@@ -104,11 +105,22 @@ def UDATE = new SimpleDateFormat('HH:mm dd/MM/yyyy').format(Calendar.getInstance
 //Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 Writer writer = null
 
+def fileNameCre = 'creDateITSupporter.txt'
+
+def fileNameUp = 'upDateITSupporter.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+def absoluteFilePathUp = (workingDirectory + File.separator) + fileNameUp
+
 try {
-    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateITSupporter.txt'), 
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathUp), 
     'utf-8'))
 
-    writer.write(UDATE) //Lưu giá trị ngày cập nhật vào file
+    writer.write(UDATE //Lưu giá trị ngày cập nhật vào file
+        )
 }
 catch (IOException ex) {
     // Report
@@ -144,7 +156,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporte
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_Q1222'), 'Q1222')
 
 WebUI.verifyElementText(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/p_CAMERA 22 thng  POS 11 thng'), 
-    'Camera, 22 tháng | Pos, 11 tháng | Email, 33 tháng |')
+    'Camera, 22 tháng | Email, 33 tháng | Software, 11 tháng |')
 
 WebUI.click(findTestObject('Object Repository/ITSupporter/ITSupporter-03/Page_ODTS System/button_ng'))
 
@@ -169,13 +181,13 @@ String CDATE = null
 BufferedReader br = null
 
 try {
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateITSupporter.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathCre))
 
     String sCurrentLine
 
     while ((sCurrentLine = br.readLine()) != null) {
-        CDATE = sCurrentLine
-    } //Lấy giá trị ngày tạo từ file
+        CDATE = sCurrentLine //Lấy giá trị ngày tạo từ file
+    }
 }
 catch (IOException e) {
 } 

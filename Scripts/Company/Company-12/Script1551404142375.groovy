@@ -3,10 +3,11 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import org.junit.After as After
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.Keys as Keys
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-12/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -53,7 +54,13 @@ WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh'
 
 WebUI.waitForAlert(1)
 
-WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh2'))
+def thangBaoHanh = WebUI.getText(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh2'))
+
+if (thangBaoHanh.compareTo('Feb') == 0) {
+	WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh2'))
+} else {
+	WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/BaoHanhFocus'))
+}
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/td_4'))
 
@@ -67,7 +74,13 @@ WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonNgayBaoHanh'
 
 WebUI.waitForAlert(1)
 
-WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/chonHanBaoHanh'))
+def thangBaoHanh2 = WebUI.getText(findTestObject('Company/Company-10/Page_ODTS System/chonHanBaoHanh'))
+
+if (thangBaoHanh2.compareTo('Apr') == 0) {
+	WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonHanBaoHanh'))
+} else {
+	WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/BaoHanhFocus'))
+}
 
 WebUI.click(findTestObject('Company/Company-12/Page_ODTS System/td_10'))
 

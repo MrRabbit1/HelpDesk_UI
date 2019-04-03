@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>creDateCompany</name>
+      <initValue>'helpdesk.wisky.vn'</initValue>
+      <name>url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

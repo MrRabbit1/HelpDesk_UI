@@ -2,10 +2,11 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-14/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -56,11 +57,18 @@ def CDATE = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().get
 //Lấy giá trị ngày tạo theo format dd/MM/yyyy
 Writer writer = null
 
+def fileNameCre = 'creDateContract.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = workingDirectory + File.separator + fileNameCre
+
 try {
-    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt'), 
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathCre), 
     'utf-8'))
 
-    writer.write(CDATE) //Lưu giá trị ngày tạo vào file
+    writer.write(CDATE //Lưu giá trị ngày tạo vào file
+        )
 }
 catch (IOException ex) {
     // Report

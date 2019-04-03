@@ -1,10 +1,11 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-01/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -64,17 +65,26 @@ Writer writer = null
 
 Writer writer2 = null
 
+def fileNameCre = 'creDateCompany.txt'
+
+def fileNameUp = 'upDateCompany.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+def absoluteFilePathUp = (workingDirectory + File.separator) + fileNameUp
+
 try {
-    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\creDateCompany.txt'), 
-    'utf-8'))
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathCre), 'utf-8'))
 
     writer.write(DATE)
 
     //Lưu giá trị ngày tạo vào file
-    writer2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateCompany.txt'), 
-    'utf-8'))
+    writer2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathUp), 'utf-8'))
 
-    writer2.write(DATE) //Lưu giá trị ngày cập nhật là ngày tạo vào file
+    writer2.write(DATE //Lưu giá trị ngày cập nhật là ngày tạo vào file
+        )
 }
 catch (IOException ex) {
     // Report

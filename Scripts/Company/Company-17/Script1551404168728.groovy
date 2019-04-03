@@ -44,7 +44,13 @@ WebUI.waitForAlert(1)
 
 WebUI.verifyElementVisible(findTestObject('Company/Company-17/Page_ODTS System/td_Khng c d liu ph hp'))
 
-PrintWriter writer2 = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt')
+def fileNameCre = 'creDateContract.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+PrintWriter writer2 = new PrintWriter(absoluteFilePathCre)
 
 writer2.print('')
 

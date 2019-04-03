@@ -1,10 +1,11 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-04/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -47,11 +48,22 @@ String UDATE = new SimpleDateFormat('HH:mm dd/MM/yyyy').format(Calendar.getInsta
 //Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 Writer writer = null
 
+def fileNameCre = 'creDateCompany.txt'
+
+def fileNameUp = 'upDateCompany.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = workingDirectory + File.separator + fileNameCre
+
+def absoluteFilePathUp = workingDirectory + File.separator + fileNameUp
+
 try {
-    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateCompany.txt'), 
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathUp), 
     'utf-8'))
 
-    writer.write(UDATE) //Lưu giá trị ngày cập nhật vào file
+    writer.write(UDATE //Lưu giá trị ngày cập nhật vào file
+        )
 }
 catch (IOException ex) {
     // Report
@@ -84,13 +96,13 @@ String CDATE = null
 BufferedReader br = null
 
 try {
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateCompany.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathCre))
 
     String sCurrentLine
 
     while ((sCurrentLine = br.readLine()) != null) {
-        CDATE = sCurrentLine
-    } //Lấy giá trị ngày tạo từ file
+        CDATE = sCurrentLine //Lấy giá trị ngày tạo từ file
+    }
 }
 catch (IOException e) {
 } 

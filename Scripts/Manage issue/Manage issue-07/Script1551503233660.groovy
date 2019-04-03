@@ -2,10 +2,11 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/Manage issue/Manage issue-07/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -98,17 +99,28 @@ Writer writer = null
 
 Writer writer2 = null
 
+def fileNameCre = 'creDateIssue.txt'
+
+def fileNameUp = 'upDateIssue.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+def absoluteFilePathUp = (workingDirectory + File.separator) + fileNameUp
+
 try {
-    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\creDateIssue.txt'), 
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathCre), 
     'utf-8'))
 
     writer.write(CDATE0)
 
     //Lưu giá trị ngày tạo vào file
-    writer2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\upDateIssue.txt'), 
+    writer2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathUp), 
     'utf-8'))
 
-    writer2.write(CDATE0) //Lưu giá trị ngày cập nhật là ngày tạo vào file
+    writer2.write(CDATE0 //Lưu giá trị ngày cập nhật là ngày tạo vào file
+        )
 }
 catch (IOException ex) {
     // Report
@@ -180,7 +192,7 @@ String UDATE = null
 BufferedReader br = null
 
 try {
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateIssue.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathCre))
 
     String sCurrentLine
 
@@ -189,13 +201,13 @@ try {
     }
     
     //Lấy giá trị ngày tạo từ file
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\upDateIssue.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathUp))
 
     sCurrentLine
 
     while ((sCurrentLine = br.readLine()) != null) {
-        UDATE = sCurrentLine
-    } //Lấy giá trị ngày cập nhật từ file
+        UDATE = sCurrentLine //Lấy giá trị ngày cập nhật từ file
+    }
 }
 catch (IOException e) {
 } 

@@ -3,10 +3,11 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.time.temporal.ChronoUnit as ChronoUnit
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-16/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -67,11 +68,18 @@ def LASTEDIT = new SimpleDateFormat('dd/MM/yyyy').format(Calendar.getInstance().
 //Lấy giá trị ngày cập nhật theo format dd/MM/yyyy
 Writer writer = null
 
+def fileNameCre = 'creDateContract.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
 try {
-    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream('C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt'), 
+    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(absoluteFilePathCre), 
     'utf-8'))
 
-    writer.write(LASTEDIT) //Lưu giá trị ngày cập nhật vào file
+    writer.write(LASTEDIT //Lưu giá trị ngày cập nhật vào file
+        )
 }
 catch (IOException ex) {
     // Report
@@ -164,13 +172,13 @@ String LASTEDITFROMFILE = null
 BufferedReader br = null
 
 try {
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathCre))
 
     String sCurrentLine
 
     while ((sCurrentLine = br.readLine()) != null) {
-        LASTEDITFROMFILE = sCurrentLine
-    } //Lấy giá trị ngày cập nhật từ file
+        LASTEDITFROMFILE = sCurrentLine //Lấy giá trị ngày cập nhật từ file
+    }
 }
 catch (IOException e) {
 } 

@@ -1,0 +1,139 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TypeOfService05-06-07-08,Chrome 73.0.3683.86,,2019-04-03 16:39:43,2019-04-03 16:40:53,1m - 9.877s,PASSED
+,,,,,,
+Test Cases/TypeOfService/Type of service-05,Chrome 73.0.3683.86,,2019-04-03 16:39:44,2019-04-03 16:40:08,24.167s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 16:39:45,2019-04-03 16:39:50,5.131s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.86,,2019-04-03 16:39:50,2019-04-03 16:39:53,3.267s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 73.0.3683.86,,2019-04-03 16:39:53,2019-04-03 16:39:53,0.304s,PASSED
+"setEncryptedText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 73.0.3683.86,,2019-04-03 16:39:53,2019-04-03 16:39:54,0.307s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/button_ng Nhp""))",Chrome 73.0.3683.86,,2019-04-03 16:39:54,2019-04-03 16:39:54,0.171s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/a_Loi Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:39:54,2019-04-03 16:39:59,5.715s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/a_Xem Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:39:59,2019-04-03 16:40:00,0.444s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:00,2019-04-03 16:40:01,1.152s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/button_To Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:01,2019-04-03 16:40:01,0.158s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:01,2019-04-03 16:40:02,1.019s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/input_Tn Dch V_siNameC""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:02,2019-04-03 16:40:02,0.191s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:02,2019-04-03 16:40:03,1.020s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/input_M T Dch V_siDescriptionC""), ""haha"")",Chrome 73.0.3683.86,,2019-04-03 16:40:03,2019-04-03 16:40:04,0.239s,PASSED
+CDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()),Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.038s,PASSED
+writer = null,Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.002s,PASSED
+writer2 = null,Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.002s,PASSED
+"fileNameCre = ""creDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.001s,PASSED
+"fileNameUp = ""upDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.001s,PASSED
+"workingDirectory = System.getProperty(""user.dir"")",Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.002s,PASSED
+absoluteFilePathCre = workingDirectory + separator + fileNameCre,Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.010s,PASSED
+absoluteFilePathUp = workingDirectory + separator + fileNameUp,Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.082s,PASSED
+Finally,Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:04,0.016s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:04,2019-04-03 16:40:05,1.021s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/button_To Mi""))",Chrome 73.0.3683.86,,2019-04-03 16:40:05,2019-04-03 16:40:05,0.121s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:05,2019-04-03 16:40:06,1.027s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/button_OK""))",Chrome 73.0.3683.86,,2019-04-03 16:40:06,2019-04-03 16:40:06,0.144s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/fieldSearch""))",Chrome 73.0.3683.86,,2019-04-03 16:40:06,2019-04-03 16:40:07,0.647s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/input""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:07,2019-04-03 16:40:07,0.172s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/td_anhtest""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:07,2019-04-03 16:40:07,0.135s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/td_haha""), ""haha"")",Chrome 73.0.3683.86,,2019-04-03 16:40:07,2019-04-03 16:40:07,0.118s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-05/Page_ODTS System/td_1340 25022019""), CDATE)",Chrome 73.0.3683.86,,2019-04-03 16:40:07,2019-04-03 16:40:07,0.074s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-03 16:40:07,2019-04-03 16:40:08,0.802s,PASSED
+,,,,,,
+Test Cases/TypeOfService/Type of service-06,Chrome 73.0.3683.86,,2019-04-03 16:40:08,2019-04-03 16:40:22,13.516s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 16:40:09,2019-04-03 16:40:12,3.096s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.86,,2019-04-03 16:40:12,2019-04-03 16:40:14,1.885s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 73.0.3683.86,,2019-04-03 16:40:14,2019-04-03 16:40:14,0.232s,PASSED
+"setEncryptedText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 73.0.3683.86,,2019-04-03 16:40:14,2019-04-03 16:40:14,0.199s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/button_ng Nhp""))",Chrome 73.0.3683.86,,2019-04-03 16:40:14,2019-04-03 16:40:14,0.129s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/a_Loi Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:14,2019-04-03 16:40:17,2.784s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/a_Xem Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:17,2019-04-03 16:40:18,0.660s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:18,2019-04-03 16:40:19,1.062s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/fieldSearch""))",Chrome 73.0.3683.86,,2019-04-03 16:40:19,2019-04-03 16:40:19,0.132s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/input""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:19,2019-04-03 16:40:19,0.240s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/button_Xem Hng Dn_btn btn-info""))",Chrome 73.0.3683.86,,2019-04-03 16:40:19,2019-04-03 16:40:19,0.178s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:19,2019-04-03 16:40:20,1.019s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/p_anhtest""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:20,2019-04-03 16:40:20,0.119s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/p_haha""), ""haha"")",Chrome 73.0.3683.86,,2019-04-03 16:40:20,2019-04-03 16:40:21,0.111s,PASSED
+CDATE = null,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+UDATE = null,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+br = null,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+"fileNameCre = ""creDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+"fileNameUp = ""upDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+"workingDirectory = System.getProperty(""user.dir"")",Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+absoluteFilePathCre = workingDirectory + separator + fileNameCre,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+absoluteFilePathUp = workingDirectory + separator + fileNameUp,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.029s,PASSED
+Finally,Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.001s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/p_1417 25022019""), CDATE)",Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.118s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/p_1417 25022019_1""), UDATE)",Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.084s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/button_ng""))",Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:21,0.133s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-03 16:40:21,2019-04-03 16:40:22,0.730s,PASSED
+,,,,,,
+Test Cases/TypeOfService/Type of service-07,Chrome 73.0.3683.86,,2019-04-03 16:40:22,2019-04-03 16:40:41,19.301s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 16:40:22,2019-04-03 16:40:25,3.528s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.86,,2019-04-03 16:40:25,2019-04-03 16:40:27,1.825s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 73.0.3683.86,,2019-04-03 16:40:27,2019-04-03 16:40:28,0.264s,PASSED
+"setEncryptedText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 73.0.3683.86,,2019-04-03 16:40:28,2019-04-03 16:40:28,0.286s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/button_ng Nhp""))",Chrome 73.0.3683.86,,2019-04-03 16:40:28,2019-04-03 16:40:28,0.221s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/a_Loi Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:28,2019-04-03 16:40:30,2.211s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/a_Xem Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:30,2019-04-03 16:40:31,0.430s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:31,2019-04-03 16:40:32,1.023s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/fieldSearch""))",Chrome 73.0.3683.86,,2019-04-03 16:40:32,2019-04-03 16:40:32,0.144s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/input""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:32,2019-04-03 16:40:32,0.248s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/button_Xem Hng Dn_btn btn-warn""))",Chrome 73.0.3683.86,,2019-04-03 16:40:32,2019-04-03 16:40:32,0.155s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:32,2019-04-03 16:40:33,1.015s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/input_Tn Dch V_siNameE""), ""anhtest22"")",Chrome 73.0.3683.86,,2019-04-03 16:40:33,2019-04-03 16:40:34,0.256s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:34,2019-04-03 16:40:35,1.017s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/input_M T Dch V_siDescriptionE""), ""haha22"")",Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.208s,PASSED
+UDATE = SimpleDateFormat(HH:mm dd/MM/yyyy).format(getInstance().getTime()),Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.001s,PASSED
+writer = null,Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.001s,PASSED
+"fileNameCre = ""creDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.000s,PASSED
+"fileNameUp = ""upDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.001s,PASSED
+"workingDirectory = System.getProperty(""user.dir"")",Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.001s,PASSED
+absoluteFilePathCre = workingDirectory + separator + fileNameCre,Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.000s,PASSED
+absoluteFilePathUp = workingDirectory + separator + fileNameUp,Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.003s,PASSED
+Finally,Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:35,0.009s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:35,2019-04-03 16:40:36,1.017s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/button_Cp Nht""))",Chrome 73.0.3683.86,,2019-04-03 16:40:36,2019-04-03 16:40:36,0.199s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:36,2019-04-03 16:40:37,1.019s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/button_OK""))",Chrome 73.0.3683.86,,2019-04-03 16:40:37,2019-04-03 16:40:37,0.168s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:37,2019-04-03 16:40:38,1.024s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/button_Xem Hng Dn_btn btn-info""))",Chrome 73.0.3683.86,,2019-04-03 16:40:38,2019-04-03 16:40:38,0.151s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:38,2019-04-03 16:40:39,1.022s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/p_anhtest22""), ""anhtest22"")",Chrome 73.0.3683.86,,2019-04-03 16:40:39,2019-04-03 16:40:40,0.156s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/p_haha22""), ""haha22"")",Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.177s,PASSED
+CDATE = null,Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.000s,PASSED
+br = null,Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.001s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.003s,PASSED
+Finally,Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.006s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/p_1417 25022019""), CDATE)",Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.116s,PASSED
+"verifyElementText(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/p_1424 25022019""), UDATE)",Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.151s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-07/Page_ODTS System/button_ng""))",Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:40,0.122s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-03 16:40:40,2019-04-03 16:40:41,0.788s,PASSED
+,,,,,,
+Test Cases/TypeOfService/Type of service-08,Chrome 73.0.3683.86,,2019-04-03 16:40:41,2019-04-03 16:40:53,12.322s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 16:40:41,2019-04-03 16:40:44,2.619s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.86,,2019-04-03 16:40:44,2019-04-03 16:40:46,2.087s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/input_ODTS_username""), ""admin01"")",Chrome 73.0.3683.86,,2019-04-03 16:40:46,2019-04-03 16:40:46,0.367s,PASSED
+"setEncryptedText(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/input_ODTS_password""), ""aeHFOx8jV/A="")",Chrome 73.0.3683.86,,2019-04-03 16:40:46,2019-04-03 16:40:46,0.178s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/button_ng Nhp""))",Chrome 73.0.3683.86,,2019-04-03 16:40:46,2019-04-03 16:40:47,0.149s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-06/Page_ODTS System/a_Loi Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:47,2019-04-03 16:40:49,2.317s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/a_Xem Dch V""))",Chrome 73.0.3683.86,,2019-04-03 16:40:49,2019-04-03 16:40:49,0.449s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/fieldSearch""))",Chrome 73.0.3683.86,,2019-04-03 16:40:49,2019-04-03 16:40:50,0.205s,PASSED
+"setText(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/input""), ""anhtest"")",Chrome 73.0.3683.86,,2019-04-03 16:40:50,2019-04-03 16:40:50,0.261s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/button_Xem Hng Dn_btn btn-dang""))",Chrome 73.0.3683.86,,2019-04-03 16:40:50,2019-04-03 16:40:50,0.176s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:50,2019-04-03 16:40:51,1.016s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/button_Chp Nhn Xa""))",Chrome 73.0.3683.86,,2019-04-03 16:40:51,2019-04-03 16:40:51,0.149s,PASSED
+waitForAlert(1),Chrome 73.0.3683.86,,2019-04-03 16:40:51,2019-04-03 16:40:52,1.015s,PASSED
+"click(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/button_OK""))",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.150s,PASSED
+"verifyElementVisible(findTestObject(""TypeOfService/Type of service-08/Page_ODTS System/td_Khng c d liu ph hp""))",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.092s,PASSED
+"fileNameCre = ""creDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.001s,PASSED
+"fileNameUp = ""upDateService.txt""",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.000s,PASSED
+"workingDirectory = System.getProperty(""user.dir"")",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.001s,PASSED
+absoluteFilePathCre = workingDirectory + separator + fileNameCre,Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.000s,PASSED
+absoluteFilePathUp = workingDirectory + separator + fileNameUp,Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.000s,PASSED
+writer2 = new java.io.PrintWriter(absoluteFilePathCre),Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.006s,PASSED
+"writer2.print("""")",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.003s,PASSED
+writer2.close(),Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.000s,PASSED
+writer = new java.io.PrintWriter(absoluteFilePathUp),Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.001s,PASSED
+"writer.print("""")",Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.000s,PASSED
+writer.close(),Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:52,0.001s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-03 16:40:52,2019-04-03 16:40:53,0.802s,PASSED

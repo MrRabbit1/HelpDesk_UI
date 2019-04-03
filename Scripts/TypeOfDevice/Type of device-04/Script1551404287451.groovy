@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('TypeOfDevice/Type of device-04/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -40,14 +40,24 @@ WebUI.click(findTestObject('TypeOfDevice/Type of device-04/Page_ODTS System/butt
 
 WebUI.verifyElementVisible(findTestObject('TypeOfDevice/Type of device-04/Page_ODTS System/td_Khng c d liu ph hp'))
 
-PrintWriter writer2 = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\creDateTypeOfDevice.txt')
+def fileNameCre = 'creDateTypeOfDevice.txt'
+
+def fileNameUp = 'upDateTypeOfDevice.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+def absoluteFilePathUp = (workingDirectory + File.separator) + fileNameUp
+
+PrintWriter writer2 = new PrintWriter(absoluteFilePathCre)
 
 writer2.print('')
 
 writer2.close()
 
 //Xóa ngày tạo
-PrintWriter writer = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\upDateTypeOfDevice.txt')
+PrintWriter writer = new PrintWriter(absoluteFilePathUp)
 
 writer.print('')
 

@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('TypeOfService/Type of service-11/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -46,14 +46,24 @@ WebUI.click(findTestObject('TypeOfService/Type of service-11/Page_ODTS System/bu
 
 WebUI.verifyElementVisible(findTestObject('TypeOfService/Type of service-11/Page_ODTS System/td_Khng c d liu ph hp'))
 
-PrintWriter writer2 = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\creDateGuide.txt')
+def fileNameCre = 'creDateGuide.txt'
+
+def fileNameUp = 'upDateGuide.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+def absoluteFilePathUp = (workingDirectory + File.separator) + fileNameUp
+
+PrintWriter writer2 = new PrintWriter(absoluteFilePathCre)
 
 writer2.print('')
 
 writer2.close()
 
 //Xóa ngày tạo
-PrintWriter writer = new PrintWriter('C:\\Users\\pc\\HelpdeskAutomation\\upDateGuide.txt')
+PrintWriter writer = new PrintWriter(absoluteFilePathUp)
 
 writer.print('')
 

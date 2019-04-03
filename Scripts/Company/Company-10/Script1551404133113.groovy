@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-10/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -58,7 +58,13 @@ WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/input_Ngy Bo Hnh
 
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonNgayBaoHanh'))
 
-WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonNgayBaoHanh2'))
+def thangBaoHanh = WebUI.getText(findTestObject('Company/Company-10/Page_ODTS System/chonNgayBaoHanh2'))
+
+if (thangBaoHanh.compareTo('Feb') == 0) {
+	WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonNgayBaoHanh2'))
+} else {
+	WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/BaoHanhFocus'))
+}
 
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/td_1'))
 
@@ -68,7 +74,13 @@ WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/input_Hn Bo Hnh_
 
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonNgayBaoHanh'))
 
-WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonHanBaoHanh'))
+def thangBaoHanh2 = WebUI.getText(findTestObject('Company/Company-10/Page_ODTS System/chonHanBaoHanh'))
+
+if (thangBaoHanh2.compareTo('Apr') == 0) {
+	WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/chonHanBaoHanh'))
+} else {
+	WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/BaoHanhFocus'))
+}
 
 WebUI.click(findTestObject('Company/Company-10/Page_ODTS System/td_1'))
 

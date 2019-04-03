@@ -2,10 +2,11 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import java.time.temporal.ChronoUnit as ChronoUnit
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-15/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -85,14 +86,20 @@ String CDATE = null
 
 BufferedReader br = null
 
+def fileNameCre = 'creDateContract.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
 try {
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateContract.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathCre))
 
     String sCurrentLine
 
     while ((sCurrentLine = br.readLine()) != null) {
-        CDATE = sCurrentLine
-    } //Lấy giá trị ngày tạo từ file
+        CDATE = sCurrentLine //Lấy giá trị ngày tạo từ file
+    }
 }
 catch (IOException e) {
 } 

@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('TypeOfService/Type of service-06/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -48,8 +48,18 @@ String UDATE = null
 
 BufferedReader br = null
 
+def fileNameCre = 'creDateService.txt'
+
+def fileNameUp = 'upDateService.txt'
+
+def workingDirectory = System.getProperty('user.dir')
+
+def absoluteFilePathCre = (workingDirectory + File.separator) + fileNameCre
+
+def absoluteFilePathUp = (workingDirectory + File.separator) + fileNameUp
+
 try {
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\creDateService.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathCre))
 
     String sCurrentLine
 
@@ -58,13 +68,13 @@ try {
     }
     
     //Lấy giá trị ngày tạo từ file
-    br = new BufferedReader(new FileReader('C:\\Users\\pc\\HelpdeskAutomation\\upDateService.txt'))
+    br = new BufferedReader(new FileReader(absoluteFilePathUp))
 
     sCurrentLine
 
     while ((sCurrentLine = br.readLine()) != null) {
-        UDATE = sCurrentLine
-    } //Lấy giá trị ngày cập nhật từ file
+        UDATE = sCurrentLine //Lấy giá trị ngày cập nhật từ file
+    }
 }
 catch (IOException e) {
 } 

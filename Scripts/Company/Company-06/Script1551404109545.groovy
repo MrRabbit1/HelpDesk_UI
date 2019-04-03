@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://helpdesk.unicode.edu.vn/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Company/Company-06/Page_ODTS System/input_ODTS_username'), 'admin01')
 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Company/Company-06/Page_ODTS System/a_Xem Chi Nhnh')
 
 WebUI.click(findTestObject('Company/Company-06/Page_ODTS System/font_To Chi Nhnh'))
 
-WebUI.waitForAlert(1)
+WebUI.waitForAlert(2)
 
 WebUI.click(findTestObject('Company/Company-06/Page_ODTS System/span_--Chn ti khon--'))
 
